@@ -1,0 +1,707 @@
+dhvs_rank,district,state,dhvs,vulnerability_band,stunting,anaemia_women,child_underweight,institutional_births,immunisation,antenatal_visits,development_proxy,surprise_type
+1,Pashchimi Singhbhum,Jharkhand,74.4,High,60.6,72.5,62.4,67.9,87.0,34.9,43.75,Expected
+2,Pakur,Jharkhand,71.88,High,51.3,80.4,51.4,64.6,69.4,26.6,42.5,Expected
+3,Araria,Bihar,67.66,High,49.9,67.7,47.8,66.2,61.6,25.8,37.95,Expected
+4,Bastar,Chhattisgarh,66.25,High,48.1,77.1,45.2,63.5,57.3,55.1,57.8,Expected
+5,Sitamarhi,Bihar,66.02,High,54.2,61.8,40.8,64.4,66.6,20.3,51.2,Expected
+6,Sahibganj,Jharkhand,65.74,High,49.1,72.1,44.8,64.7,66.0,36.2,49.05,Expected
+7,Bijapur,Chhattisgarh,64.89,High,53.8,72.9,46.1,63.6,78.4,56.9,38.45,Expected
+8,Purnia,Bihar,64.24,High,43.5,65.1,47.1,68.9,62.7,11.1,41.55,Expected
+9,Katihar,Bihar,63.93,High,43.9,68.9,48.1,66.9,73.7,15.3,47.15,Expected
+10,Dohad,Gujarat,63.8,High,55.3,75.4,53.0,92.5,66.2,70.9,46.0,Expected
+11,Saharsa,Bihar,63.18,High,47.8,65.7,42.7,70.4,72.2,11.7,41.8,Expected
+12,West Khasi Hills,Meghalaya,62.94,High,59.0,52.1,31.1,41.7,62.5,64.0,87.6,Richer but Sicker
+13,Zunheboto,Nagaland,61.61,High,44.0,30.6,44.5,35.0,60.7,11.2,88.0,Richer but Sicker
+14,Deoghar,Jharkhand,61.56,High,41.7,70.1,36.9,61.3,54.5,30.7,47.9,Expected
+15,Purba Champaran,Bihar,61.21,High,49.1,57.1,37.9,61.5,68.3,21.7,49.25,Expected
+16,Lakhisarai,Bihar,60.95,High,42.7,72.9,45.1,75.8,68.9,28.0,54.75,Expected
+17,Bahraich,Uttar Pradesh,60.89,High,52.1,48.8,38.0,67.7,51.8,34.3,42.9,Expected
+18,Nandurbar,Maharastra,60.88,High,45.8,64.1,57.2,76.3,72.4,58.2,55.9,Expected
+18,Kishanganj,Bihar,60.88,High,38.8,64.9,41.1,54.6,67.3,17.1,50.2,Expected
+20,Madhepura,Bihar,60.78,High,46.3,65.4,43.5,75.0,72.0,20.9,41.1,Expected
+21,Fatehpur,Uttar Pradesh,60.48,High,51.1,63.7,38.0,81.4,55.7,38.1,64.8,Expected
+22,Budaun,Uttar Pradesh,60.0,High,51.8,56.2,43.0,72.3,69.5,40.6,61.05,Expected
+23,Jamtara,Jharkhand,59.95,High,41.9,78.4,46.2,75.4,78.8,36.0,55.1,Expected
+24,Arwal,Bihar,59.9,High,45.6,66.6,52.9,79.2,84.2,34.5,52.95,Expected
+25,West Jaintia Hills,Meghalaya,59.88,High,48.7,55.3,28.3,42.2,59.7,43.1,77.55,Richer but Sicker
+26,Jehanabad,Bihar,59.67,High,41.3,67.8,51.7,89.1,70.3,17.4,54.35,Expected
+27,Dhubri,Assam,59.62,High,48.5,63.0,37.8,64.2,71.6,37.6,65.65,Expected
+28,Darbhanga,Bihar,59.18,High,45.4,61.3,39.2,69.9,66.3,24.9,49.05,Expected
+29,Nalanda,Bihar,59.11,High,42.6,71.5,46.7,80.3,75.2,29.3,54.3,Expected
+30,Jamui,Bihar,59.01,High,43.0,76.2,37.5,73.4,66.4,37.9,43.15,Expected
+31,Dumka,Jharkhand,58.98,High,38.2,74.2,44.9,60.3,78.9,39.3,48.55,Expected
+32,Banda,Uttar Pradesh,58.95,High,51.0,52.3,49.8,89.8,62.9,39.0,60.95,Expected
+33,Nawada,Bihar,58.88,High,49.4,70.1,37.3,79.9,74.5,31.6,55.0,Expected
+34,Sheikhpura,Bihar,58.32,High,53.6,69.7,37.6,89.2,82.8,28.4,54.6,Expected
+35,Gaya,Bihar,58.22,High,47.4,64.3,43.5,76.6,85.0,25.1,51.9,Expected
+36,Bhojpur,Bihar,58.19,High,40.7,73.9,44.0,86.9,61.9,33.5,55.0,Expected
+37,Bhagalpur,Bihar,58.14,High,40.0,73.7,40.4,77.2,66.8,27.6,63.25,Expected
+38,Tuensang,Nagaland,58.04,High,37.1,29.3,34.2,34.8,39.9,4.4,84.9,Richer but Sicker
+39,Narmada,Gujarat,57.62,High,47.2,75.9,52.8,81.7,82.8,83.4,60.95,Expected
+40,Kaimur (Bhabua),Bihar,57.45,High,44.1,70.6,47.2,83.3,88.9,25.6,62.55,Expected
+41,Banka,Bihar,57.23,High,46.7,65.7,45.8,79.8,88.1,31.7,46.95,Expected
+42,Chhota Udaipur,Gujarat,57.12,High,48.6,79.1,48.1,85.7,81.7,81.2,53.1,Expected
+43,Mewat,Haryana,56.81,High,44.4,61.1,37.3,74.6,53.8,45.9,58.4,Expected
+44,Bongaigaon,Assam,56.75,High,46.2,71.4,35.3,84.5,67.9,33.9,74.15,Richer but Sicker
+45,Khunti,Jharkhand,56.73,High,38.5,70.9,44.0,73.8,71.9,37.4,57.55,Expected
+46,South West Khasi Hills,Meghalaya,56.71,High,51.4,58.5,27.6,41.7,78.8,63.4,87.75,Richer but Sicker
+47,Godda,Jharkhand,56.64,High,39.4,66.3,40.7,70.2,63.9,39.2,52.65,Expected
+48,Saran,Bihar,56.57,High,39.7,63.0,45.0,73.0,72.0,30.7,51.4,Expected
+49,Garhwa,Jharkhand,56.33,High,47.7,62.9,40.6,84.0,77.2,29.8,58.4,Expected
+50,Samastipur,Bihar,56.14,High,44.0,59.9,42.8,83.4,71.4,23.5,51.55,Expected
+51,Kanshiram Nagar,Uttar Pradesh,56.09,High,45.1,66.1,35.5,74.8,69.2,38.1,65.2,Expected
+52,Etah,Uttar Pradesh,56.04,High,48.8,56.0,30.6,76.7,55.5,33.6,66.75,Expected
+53,Aravali,Gujarat,55.8,High,47.1,77.1,47.2,92.2,77.0,73.8,64.1,Expected
+54,Supaul,Bihar,55.75,High,42.3,61.0,45.0,80.4,73.6,30.9,46.4,Expected
+55,Shrawasti,Uttar Pradesh,55.66,High,50.9,44.6,40.8,80.4,59.6,42.4,49.45,Expected
+56,Yadgir,Karnataka,55.51,High,57.6,57.1,45.2,93.3,82.6,63.6,42.75,Expected
+57,Sheopur,Madhya Pradesh,55.5,High,45.8,65.3,37.7,84.2,65.8,41.0,51.4,Expected
+58,Shahjahanpur,Uttar Pradesh,55.4,High,44.5,60.6,34.7,63.3,76.5,35.3,64.35,Expected
+59,Panna,Madhya Pradesh,55.35,High,45.1,58.8,39.2,84.0,64.5,30.9,53.35,Expected
+60,Chitrakoot,Uttar Pradesh,55.24,High,47.5,46.7,41.8,81.1,63.7,30.3,59.4,Expected
+61,Dantewada,Chhattisgarh,55.22,High,45.6,76.7,45.8,90.5,77.6,68.2,55.4,Expected
+62,Darrang,Assam,55.12,High,42.0,71.4,33.1,84.4,57.1,37.5,71.75,Expected
+63,Kannauj,Uttar Pradesh,55.02,High,43.0,65.2,33.5,76.4,55.8,46.4,69.2,Expected
+64,Simdega,Jharkhand,54.93,High,42.2,71.0,37.0,75.7,79.3,34.4,70.05,Expected
+65,Kurnool,Andhra Pradesh,54.78,High,50.5,58.3,46.3,88.5,67.0,74.3,65.25,Expected
+66,Udalguri,Assam,54.71,High,33.8,82.2,32.5,86.2,38.3,49.8,71.9,Expected
+67,Sheohar,Bihar,54.67,High,34.4,63.4,42.2,74.3,62.9,25.3,55.2,Expected
+68,Kiphire,Nagaland,54.64,High,36.9,31.9,25.0,34.8,42.8,5.8,78.4,Richer but Sicker
+69,Aurangabad,Bihar,54.6,High,41.2,60.9,48.7,77.5,89.7,29.3,57.35,Expected
+70,Farrukhabad,Uttar Pradesh,54.55,High,47.8,57.5,31.1,69.3,68.5,41.5,68.85,Expected
+71,Sitapur,Uttar Pradesh,54.54,High,47.8,55.2,37.9,84.8,65.9,35.4,55.85,Expected
+72,Saraikela-Kharsawan,Jharkhand,54.51,High,40.0,71.2,48.7,81.8,80.9,54.4,64.6,Expected
+73,Bareilly,Uttar Pradesh,54.39,High,45.9,61.3,35.2,75.1,70.5,43.1,67.2,Expected
+74,Chatra,Jharkhand,54.37,High,42.2,55.9,39.8,71.5,71.7,32.4,54.95,Expected
+74,Balrampur,Uttar Pradesh,54.37,High,41.2,54.8,37.2,69.7,57.4,41.0,52.3,Expected
+76,Buxar,Bihar,54.36,High,39.6,67.0,45.3,89.5,75.0,27.4,60.25,Expected
+76,Narayanpur,Chhattisgarh,54.36,High,43.7,72.8,39.5,74.2,81.7,59.1,53.3,Expected
+78,Biswanath,Assam,54.35,High,42.7,65.1,41.0,84.3,66.2,46.5,72.9,Expected
+79,Kodagaon,Chhattisgarh,54.31,High,37.6,79.5,42.2,78.7,70.1,64.1,67.8,Expected
+80,Hailakandi,Assam,54.27,High,42.9,61.5,42.4,83.0,68.6,43.1,71.1,Expected
+81,Hardoi,Uttar Pradesh,54.16,High,44.5,59.5,33.0,73.9,63.3,39.7,57.5,Expected
+82,Madhubani,Bihar,53.76,High,43.3,60.9,36.0,73.7,74.1,34.9,45.7,Expected
+83,Patna,Bihar,53.74,High,34.5,67.3,39.6,89.1,56.6,17.9,64.3,Expected
+84,Latehar,Jharkhand,53.67,High,40.1,63.8,39.4,70.3,75.0,43.1,55.05,Expected
+85,Ballia,Uttar Pradesh,53.66,High,43.8,53.0,42.5,90.0,62.2,30.5,67.5,Expected
+86,Adilabad,Telangana,53.53,High,45.7,61.1,52.0,94.1,69.3,74.8,57.8,Expected
+87,Dhule,Maharastra,53.52,High,37.6,60.8,46.0,77.2,56.6,63.2,63.85,Expected
+88,West Karbi Anglong,Assam,53.41,High,40.9,58.8,31.1,72.5,47.9,46.7,75.3,Richer but Sicker
+89,Palamu,Jharkhand,53.28,High,43.7,61.1,37.3,74.9,80.9,33.8,55.85,Expected
+90,Muzaffarpur,Bihar,53.17,High,42.6,58.7,34.7,72.5,74.9,28.2,59.1,Expected
+91,Banas Kantha,Gujarat,53.15,High,39.0,59.6,44.1,92.9,43.5,56.1,58.8,Expected
+92,Rohtas,Bihar,52.71,High,40.0,65.6,48.2,89.1,86.8,34.2,72.75,Expected
+93,Chhatarpur,Madhya Pradesh,52.62,High,45.1,63.4,34.6,85.2,72.9,36.9,59.6,Expected
+94,Sukma,Chhattisgarh,52.61,High,41.8,79.0,37.4,81.2,73.3,74.0,38.0,Expected
+95,Vaishali,Bihar,52.6,High,38.3,62.9,38.4,81.6,71.0,24.5,57.5,Expected
+96,Mahisagar,Gujarat,52.58,High,43.4,73.2,49.0,93.0,80.0,76.6,57.65,Expected
+97,Bara Banki,Uttar Pradesh,52.48,High,41.9,55.0,31.9,76.0,64.4,22.6,61.75,Expected
+98,Parbhani,Maharastra,52.46,High,37.6,59.4,41.8,85.6,52.0,47.4,66.75,Expected
+99,The Dangs,Gujarat,52.37,High,37.6,77.6,53.1,74.5,91.3,90.2,70.3,Expected
+100,Chirang,Assam,52.29,High,42.7,65.7,39.7,83.7,71.1,56.5,74.3,Richer but Sicker
+101,Khagaria,Bihar,52.25,High,34.8,59.1,36.4,74.2,64.7,17.4,58.4,Expected
+102,Katni,Madhya Pradesh,52.21,High,49.5,59.2,44.0,91.8,86.0,52.9,62.75,Expected
+103,Koppal,Karnataka,52.17,High,49.1,54.8,45.8,90.7,84.8,50.7,59.3,Expected
+104,Sambhal,Uttar Pradesh,52.09,High,51.6,51.1,29.8,74.2,83.0,32.9,62.7,Expected
+105,Unakoti,Tripura,51.96,High,31.8,67.4,32.0,71.5,58.3,24.6,69.1,Expected
+106,Mon,Nagaland,51.87,High,35.5,30.4,23.3,21.4,62.4,9.7,82.3,Richer but Sicker
+107,Panch Mahals,Gujarat,51.74,High,47.1,69.5,51.9,88.4,95.4,88.7,65.3,Expected
+108,Kheri,Uttar Pradesh,51.71,High,47.6,52.8,36.3,82.8,69.5,48.0,63.8,Expected
+108,Begusarai,Bihar,51.71,High,37.8,63.2,35.6,86.0,65.8,21.6,62.25,Expected
+110,Ribhoi,Meghalaya,51.67,High,42.5,62.2,29.6,56.9,74.8,61.0,87.4,Richer but Sicker
+111,Bharuch,Gujarat,51.1,High,40.9,71.6,45.5,91.1,80.0,65.7,75.85,Richer but Sicker
+112,Puruliya,West Bengal,50.95,High,36.9,76.9,46.3,89.8,84.7,57.8,45.1,Expected
+113,Pashchim Champaran,Bihar,50.84,High,43.5,49.8,30.3,79.5,62.1,25.4,47.9,Expected
+114,Lohardaga,Jharkhand,50.81,High,40.7,62.1,43.4,84.1,88.2,37.7,67.6,Expected
+115,Longleng,Nagaland,50.76,High,34.1,34.9,25.7,38.7,53.0,15.4,84.3,Richer but Sicker
+116,Barwani,Madhya Pradesh,50.68,High,45.8,58.5,41.0,85.1,76.1,64.2,56.75,Expected
+117,East Jantia Hills,Meghalaya,50.61,High,49.8,43.7,23.6,48.4,74.4,58.6,79.8,Richer but Sicker
+118,Mainpuri,Uttar Pradesh,50.53,High,44.3,58.2,33.6,82.7,75.0,38.1,70.75,Expected
+118,Firozabad,Uttar Pradesh,50.53,High,46.9,57.7,25.6,80.1,67.1,39.3,71.7,Expected
+120,East Khasi Hills,Meghalaya,50.51,High,44.6,48.5,23.8,63.4,49.1,57.5,87.3,Richer but Sicker
+121,Kokrajhar,Assam,50.48,High,34.6,59.5,35.2,81.9,51.1,36.9,72.95,Expected
+122,Baksa,Assam,50.45,High,41.2,73.8,34.0,89.9,70.5,56.0,71.85,Expected
+123,Kanpur Dehat,Uttar Pradesh,50.22,High,44.1,54.6,32.8,84.3,56.3,54.4,73.1,Expected
+124,Sonbhadra,Uttar Pradesh,50.18,High,38.3,44.2,46.5,76.8,72.7,36.4,67.7,Expected
+125,Paschim Barddhaman,West Bengal,50.15,High,39.7,66.5,41.0,89.8,62.4,70.4,72.5,Expected
+126,Satna,Madhya Pradesh,50.01,High,49.4,57.5,31.2,85.5,76.3,51.5,64.2,Expected
+127,Jogulamba Gadwal,Telangana,50.0,Moderate,49.7,64.1,41.7,94.2,86.9,72.9,59.35,Expected
+128,Mayurbhanj,Odisha,49.92,Moderate,36.7,73.0,45.9,91.7,84.4,52.9,57.95,Expected
+129,Uttar Dinajpur,West Bengal,49.87,Moderate,44.8,71.9,32.0,76.9,84.4,70.1,64.6,Expected
+129,Dhalai,Tripura,49.87,Moderate,45.7,69.7,27.6,87.3,73.7,52.0,69.6,Expected
+131,Rayagada,Odisha,49.85,Moderate,43.6,68.8,39.8,68.9,92.7,85.3,47.8,Expected
+132,Munger,Bihar,49.74,Moderate,35.5,71.3,39.5,93.2,73.4,36.8,66.15,Expected
+133,Jhansi,Uttar Pradesh,49.73,Moderate,40.9,41.5,39.3,92.9,44.5,36.6,72.85,Expected
+134,Kheda,Gujarat,49.67,Moderate,37.3,76.2,39.5,95.2,69.0,61.2,67.1,Expected
+135,North Garo Hills,Meghalaya,49.64,Moderate,35.6,58.9,15.8,61.5,47.5,24.3,85.5,Richer but Sicker
+136,Khowai,Tripura,49.6,Moderate,47.0,63.7,24.7,95.7,60.7,41.5,74.15,Richer but Sicker
+137,Surendranagar,Gujarat,49.52,Moderate,39.2,55.4,41.8,85.6,62.5,57.5,69.45,Expected
+138,South Salmara Mancachar,Assam,49.51,Moderate,38.9,58.2,27.9,71.7,65.8,35.3,61.25,Expected
+139,Tapi,Gujarat,49.46,Moderate,41.7,77.6,51.8,92.9,97.5,91.0,71.1,Expected
+140,Kaushambi,Uttar Pradesh,49.43,Moderate,40.2,54.6,36.8,88.6,65.7,34.0,60.8,Expected
+141,Jhabua,Madhya Pradesh,49.33,Moderate,49.3,58.7,41.7,92.9,88.9,63.6,48.1,Expected
+141,Gonda,Uttar Pradesh,49.33,Moderate,45.9,49.3,28.0,81.8,59.9,41.7,52.5,Expected
+143,Morigaon,Assam,49.3,Moderate,43.2,64.9,30.5,88.3,73.4,42.0,70.5,Expected
+144,Unnao,Uttar Pradesh,49.07,Moderate,39.2,49.6,29.3,80.8,58.6,19.8,64.25,Expected
+145,Baloda Bazar,Chhattisgarh,49.05,Moderate,40.9,61.5,34.1,78.1,77.3,49.5,76.95,Richer but Sicker
+146,Nashik,Maharastra,49.03,Moderate,42.2,55.4,44.8,90.5,70.4,66.4,74.15,Richer but Sicker
+147,Komaram Bheem Asifabad,Telangana,48.97,Moderate,38.1,67.3,41.1,82.0,76.2,68.8,52.85,Expected
+148,Patan,Gujarat,48.93,Moderate,50.5,59.8,42.3,98.6,81.0,79.8,72.1,Expected
+149,Bijapur,Karnataka,48.77,Moderate,45.9,52.2,39.0,91.8,71.1,56.4,55.7,Expected
+150,Karimganj,Assam,48.75,Moderate,29.1,52.5,52.9,76.4,75.1,42.8,71.1,Expected
+151,Ghazipur,Uttar Pradesh,48.74,Moderate,39.3,46.2,38.3,88.3,60.8,29.2,69.95,Expected
+152,Dhaulpur,Rajasthan,48.67,Moderate,45.7,68.8,31.3,94.4,85.9,42.4,58.7,Expected
+153,Jalgaon,Maharastra,48.65,Moderate,36.3,65.3,36.9,86.5,61.3,58.4,68.1,Expected
+154,Nabarangapur,Odisha,48.64,Moderate,44.1,69.7,46.6,87.6,94.8,87.7,42.55,Expected
+155,Anand,Gujarat,48.63,Moderate,38.4,66.6,46.6,96.0,77.0,64.2,79.0,Richer but Sicker
+156,Giridih,Jharkhand,48.6,Moderate,31.9,65.2,34.3,70.7,70.6,42.1,58.25,Expected
+157,Jalna,Maharastra,48.57,Moderate,38.0,58.7,39.0,92.8,54.3,58.4,67.7,Expected
+158,Rewa,Madhya Pradesh,48.55,Moderate,37.0,61.7,31.5,80.4,70.3,33.0,56.9,Expected
+159,Goalpara,Assam,48.48,Moderate,38.9,65.5,35.4,92.3,70.3,44.1,74.7,Richer but Sicker
+160,Bokaro,Jharkhand,48.39,Moderate,36.2,69.0,32.3,80.9,71.0,48.7,68.5,Expected
+161,Vadodara,Gujarat,48.33,Moderate,42.3,72.6,39.9,95.9,84.9,65.9,85.1,Richer but Sicker
+161,Buldana,Maharastra,48.33,Moderate,45.0,58.5,47.2,93.9,85.9,72.7,74.4,Richer but Sicker
+163,Balaghat,Madhya Pradesh,48.29,Moderate,41.9,61.0,44.9,95.1,75.8,69.1,79.7,Richer but Sicker
+164,Nagaon,Assam,48.23,Moderate,38.9,61.0,32.4,83.7,58.2,59.4,72.25,Expected
+165,Charaideo,Assam,48.13,Moderate,39.0,72.6,34.8,88.2,74.0,64.5,73.9,Expected
+166,Paschim Medinipur,West Bengal,48.02,Moderate,31.1,82.0,40.0,87.6,76.9,63.1,64.6,Expected
+167,Bharatpur,Rajasthan,47.99,Moderate,40.3,61.0,29.1,92.1,64.1,33.2,62.9,Expected
+168,Birbhum,West Bengal,47.92,Moderate,37.0,78.2,41.8,90.3,81.6,78.4,62.9,Expected
+169,Balrampur,Chhattisgarh,47.89,Moderate,35.1,63.2,38.8,78.9,76.1,52.1,62.05,Expected
+170,Siddharthnagar,Uttar Pradesh,47.71,Moderate,37.2,51.4,36.3,69.7,65.1,60.9,45.95,Expected
+171,Gumla,Jharkhand,47.58,Moderate,40.2,59.9,38.7,83.8,85.3,49.3,59.7,Expected
+172,Sagar,Madhya Pradesh,47.57,Moderate,42.7,49.5,35.8,86.9,75.9,35.9,71.55,Expected
+172,Dindori,Madhya Pradesh,47.57,Moderate,38.9,65.0,33.6,77.6,80.3,56.5,57.35,Expected
+174,Shahdol,Madhya Pradesh,47.55,Moderate,44.0,56.4,39.2,85.6,86.1,57.4,66.75,Expected
+175,Jyotiba Phule Nagar,Uttar Pradesh,47.5,Moderate,42.2,47.9,35.4,81.1,72.9,43.9,71.65,Expected
+176,Hojai,Assam,47.48,Moderate,39.3,56.6,28.4,82.1,55.5,51.3,73.15,Expected
+177,East Garo Hills,Meghalaya,47.45,Moderate,39.7,52.1,26.5,73.8,72.4,25.5,85.3,Richer but Sicker
+178,Malkangiri,Odisha,47.4,Moderate,44.3,71.8,41.6,90.7,94.8,82.8,41.35,Expected
+179,Hazaribagh,Jharkhand,47.31,Moderate,37.8,56.2,32.5,82.0,70.1,36.4,62.65,Expected
+180,Gandhinagar,Gujarat,47.22,Moderate,38.1,69.2,44.6,97.8,77.7,71.0,83.2,Richer but Sicker
+181,Hamirpur,Uttar Pradesh,47.0,Moderate,48.0,46.4,36.3,96.3,77.1,43.2,75.45,Richer but Sicker
+182,Kendujhar,Odisha,46.9,Moderate,36.2,69.0,37.1,80.4,86.0,57.1,57.3,Expected
+183,Korba,Chhattisgarh,46.88,Moderate,34.7,66.9,27.9,75.4,68.4,49.3,75.45,Richer but Sicker
+184,Lakhimpur,Assam,46.77,Moderate,38.5,66.3,34.4,96.2,69.0,51.7,79.05,Richer but Sicker
+185,Singrauli,Madhya Pradesh,46.76,Moderate,37.3,54.4,36.0,69.9,76.9,58.1,59.0,Expected
+186,Ramgarh,Jharkhand,46.75,Moderate,35.3,62.3,35.3,79.0,81.8,40.9,68.45,Expected
+187,Jalaun,Uttar Pradesh,46.61,Moderate,45.1,44.0,36.1,85.1,66.2,62.8,75.6,Richer but Sicker
+188,Mahamaya Nagar,Uttar Pradesh,46.57,Moderate,39.1,58.1,24.5,80.3,71.6,27.8,71.0,Expected
+189,Murshidabad,West Bengal,46.43,Moderate,39.8,78.0,32.4,87.0,90.0,66.9,68.65,Expected
+190,Rae Bareli,Uttar Pradesh,46.41,Moderate,47.0,48.3,28.8,89.5,71.4,43.6,60.75,Expected
+191,Damoh,Madhya Pradesh,46.33,Moderate,40.3,47.9,32.3,85.0,60.8,46.4,54.45,Expected
+192,Jorhat,Assam,46.27,Moderate,38.7,72.4,33.2,96.5,69.2,67.0,82.75,Richer but Sicker
+193,Pilibhit,Uttar Pradesh,46.22,Moderate,38.9,52.6,39.4,76.2,92.3,43.6,68.05,Expected
+194,Bagalkot,Karnataka,46.18,Moderate,48.3,47.9,42.3,95.2,78.6,76.2,60.5,Expected
+195,Purbi Singhbhum,Jharkhand,46.08,Moderate,35.9,65.1,41.6,94.0,88.8,40.7,73.8,Expected
+196,Allahabad,Uttar Pradesh,46.02,Moderate,37.9,46.5,32.6,83.2,55.8,45.9,65.15,Expected
+196,Raichur,Karnataka,46.02,Moderate,39.8,59.9,40.7,88.9,80.2,67.5,53.65,Expected
+198,Sidhi,Madhya Pradesh,46.0,Moderate,39.1,55.7,32.8,83.8,78.2,39.4,58.2,Expected
+199,Cachar,Assam,45.96,Moderate,28.7,58.2,38.2,79.2,70.4,32.7,67.4,Expected
+200,Jalor,Rajasthan,45.8,Moderate,44.3,60.8,36.5,95.5,78.0,71.2,70.0,Expected
+201,Aurangabad,Maharastra,45.79,Moderate,34.2,52.6,42.9,94.8,56.7,57.2,76.1,Richer but Sicker
+202,Gajapati,Odisha,45.77,Moderate,43.4,65.6,34.3,76.4,92.6,83.0,54.4,Expected
+203,Peren,Nagaland,45.62,Moderate,34.9,29.9,20.7,43.5,63.3,14.5,83.5,Richer but Sicker
+204,Rampur,Uttar Pradesh,45.61,Moderate,40.4,55.7,32.1,81.0,79.4,50.4,69.15,Expected
+205,Gadag,Karnataka,45.6,Moderate,45.2,50.5,39.8,96.2,74.3,68.7,62.95,Expected
+206,Burhanpur,Madhya Pradesh,45.57,Moderate,38.7,58.0,47.2,90.7,91.7,63.1,70.8,Expected
+207,Maldah,West Bengal,45.42,Moderate,40.5,73.8,35.3,87.7,87.2,82.8,67.15,Expected
+208,Lalitpur,Uttar Pradesh,45.27,Moderate,46.6,37.5,34.8,90.8,70.8,45.7,62.75,Expected
+209,Sant Ravidas Nagar (Bhadohi),Uttar Pradesh,45.25,Moderate,42.7,43.2,26.5,90.3,62.2,25.8,70.7,Expected
+210,Wokha,Nagaland,45.17,Moderate,26.3,31.0,28.0,43.6,42.8,34.7,90.05,Richer but Sicker
+211,Morena,Madhya Pradesh,45.11,Moderate,40.0,68.4,29.6,94.8,69.7,64.9,66.7,Expected
+212,Tinsukia,Assam,45.05,Moderate,32.8,72.9,32.2,82.6,75.0,63.1,68.6,Expected
+213,Umaria,Madhya Pradesh,44.99,Moderate,45.3,51.6,36.6,92.2,90.6,48.9,60.7,Expected
+214,Shivpuri,Madhya Pradesh,44.98,Moderate,39.2,50.7,36.1,94.5,63.1,52.7,59.0,Expected
+215,Baran,Rajasthan,44.83,Moderate,46.0,60.1,40.2,97.3,89.3,79.3,59.35,Expected
+216,Chandauli,Uttar Pradesh,44.8,Moderate,39.5,48.5,29.9,86.2,70.6,32.9,70.3,Expected
+217,Sabar Kantha,Gujarat,44.63,Moderate,37.0,67.9,41.0,89.4,88.5,73.2,67.75,Expected
+218,Nuapada,Odisha,44.55,Moderate,43.1,64.3,38.0,89.8,97.0,71.7,57.8,Expected
+219,Ranchi,Jharkhand,44.53,Moderate,28.3,59.3,40.6,87.3,73.8,35.2,77.8,Richer but Sicker
+220,Phek,Nagaland,44.5,Moderate,28.0,31.0,15.6,32.2,54.6,9.5,87.95,Richer but Sicker
+221,Mahoba,Uttar Pradesh,44.45,Moderate,42.3,49.5,33.4,96.3,70.7,46.2,69.35,Expected
+222,Fazilka,Punjab,44.3,Moderate,35.9,67.1,20.2,91.7,60.5,36.5,77.3,Richer but Sicker
+223,Siwan,Bihar,44.14,Moderate,36.7,53.0,30.8,86.4,76.1,30.3,59.3,Expected
+224,Kodarma,Jharkhand,44.02,Moderate,34.6,65.1,31.7,91.3,73.8,47.6,60.45,Expected
+225,Barpeta,Assam,43.87,Moderate,29.8,65.6,26.2,87.6,54.6,43.6,69.25,Expected
+226,Washim,Maharastra,43.83,Moderate,35.3,57.0,39.3,92.9,71.6,60.0,69.75,Expected
+227,Bid,Maharastra,43.74,Moderate,40.8,51.0,36.8,94.0,75.9,56.8,71.35,Expected
+228,Banswara,Rajasthan,43.72,Moderate,44.6,53.1,38.7,97.7,83.0,69.9,47.8,Expected
+229,Mahesana,Gujarat,43.71,Moderate,31.0,69.5,41.4,97.3,79.6,56.6,73.6,Expected
+230,Khandwa (East Nimar),Madhya Pradesh,43.59,Moderate,38.4,66.9,35.3,93.2,87.9,62.2,72.2,Expected
+231,Sonitpur,Assam,43.56,Moderate,36.7,64.3,21.9,83.5,70.9,45.5,74.55,Richer but Sicker
+231,Karauli,Rajasthan,43.56,Moderate,37.6,61.1,37.3,97.6,88.9,42.0,52.35,Expected
+233,Bellary,Karnataka,43.53,Moderate,36.1,58.7,36.5,95.7,71.5,56.4,64.25,Expected
+234,Mirzapur,Uttar Pradesh,43.51,Moderate,43.4,42.3,27.6,91.1,68.3,36.5,72.85,Expected
+235,Mahrajganj,Uttar Pradesh,43.4,Moderate,40.5,47.3,37.4,93.3,76.2,52.5,65.4,Expected
+236,Muktsar,Punjab,43.37,Moderate,35.0,60.9,30.7,96.4,57.6,57.9,77.8,Richer but Sicker
+237,Sant Kabir Nagar,Uttar Pradesh,43.16,Moderate,42.3,43.8,34.2,90.6,80.2,43.2,63.9,Expected
+237,Medak,Telangana,43.16,Moderate,36.4,54.8,42.0,98.9,69.3,68.5,67.95,Expected
+239,Yavatmal,Maharastra,43.05,Moderate,36.6,58.5,39.4,96.3,74.7,66.9,73.6,Expected
+240,Gulbarga,Karnataka,42.91,Moderate,34.5,56.0,36.2,88.7,75.3,53.6,52.35,Expected
+241,Gopalganj,Bihar,42.84,Moderate,34.2,53.8,29.2,85.9,75.8,27.9,61.7,Expected
+242,Bulandshahr,Uttar Pradesh,42.82,Moderate,37.6,51.5,26.5,83.5,67.3,47.6,76.8,Richer but Sicker
+243,Lawngtlai,Mizoram,42.79,Moderate,32.7,48.6,16.9,53.7,70.2,33.0,83.15,Richer but Sicker
+244,Gwalior,Madhya Pradesh,42.72,Moderate,40.1,62.5,33.0,94.8,80.5,68.9,80.65,Richer but Sicker
+245,Karbi Anglong,Assam,42.69,Moderate,31.6,59.5,28.2,74.9,64.3,63.9,77.0,Richer but Sicker
+246,Gir Somnath,Gujarat,42.68,Moderate,44.4,49.6,30.3,87.1,69.9,80.7,73.7,Expected
+247,Aligarh,Uttar Pradesh,42.64,Moderate,35.0,56.4,26.3,82.6,70.1,44.7,69.05,Expected
+248,Etawah,Uttar Pradesh,42.6,Moderate,38.8,57.6,24.3,85.2,77.7,43.7,78.9,Richer but Sicker
+249,Ahmadabad,Gujarat,42.5,Moderate,35.5,63.5,34.0,94.5,65.2,77.8,83.95,Richer but Sicker
+249,Nanded,Maharastra,42.5,Moderate,36.0,57.5,35.2,94.8,75.7,53.5,69.95,Expected
+251,Basti,Uttar Pradesh,42.49,Moderate,35.9,40.3,39.2,93.2,73.8,31.5,64.75,Expected
+252,West Garo Hills,Meghalaya,42.4,Moderate,39.5,57.2,26.3,89.6,77.1,48.0,87.65,Richer but Sicker
+253,Thane,Maharastra,42.36,Moderate,40.8,58.8,30.8,93.6,74.9,70.2,82.6,Richer but Sicker
+254,Bilaspur,Chhattisgarh,42.32,Moderate,25.7,59.3,28.0,79.4,52.5,46.9,77.4,Richer but Sicker
+255,Bankura,West Bengal,42.24,Moderate,30.3,77.3,38.8,93.3,85.0,75.7,58.75,Expected
+256,Agar Malwa,Madhya Pradesh,42.22,Moderate,40.3,59.5,35.7,98.9,75.8,76.5,65.85,Expected
+257,Jashpur,Chhattisgarh,42.18,Moderate,35.8,61.8,33.6,85.6,94.2,48.6,73.95,Richer but Sicker
+258,Agra,Uttar Pradesh,42.16,Moderate,35.9,59.4,26.2,89.1,74.1,42.7,67.9,Expected
+259,Harda,Madhya Pradesh,42.09,Moderate,38.8,63.3,34.7,88.4,90.8,71.9,71.35,Expected
+260,Alwar,Rajasthan,42.07,Moderate,33.9,53.3,24.0,91.3,59.4,30.0,65.8,Expected
+261,South West Garo Hills,Meghalaya,42.05,Moderate,32.2,63.6,26.4,83.7,85.4,28.5,77.0,Richer but Sicker
+262,Sepahijala,Tripura,41.98,Moderate,34.5,69.8,21.0,87.7,70.3,52.8,77.5,Richer but Sicker
+263,Dadra & Nagar Haveli,Dadra and Nagar Haveli & Daman and Diu,41.96,Moderate,42.4,64.5,42.1,96.3,100.0,90.9,67.95,Expected
+264,Bidar,Karnataka,41.95,Moderate,36.8,55.7,36.1,99.0,74.8,55.3,65.15,Expected
+265,Amethi,Uttar Pradesh,41.92,Moderate,35.8,46.6,33.1,90.8,75.9,31.7,64.1,Expected
+265,Alirajpur,Madhya Pradesh,41.92,Moderate,34.6,60.4,31.6,83.2,84.1,54.7,63.4,Expected
+267,Namsai,Arunachal Pradesh,41.89,Moderate,28.7,58.8,17.7,63.6,67.2,35.4,71.1,Expected
+267,Koraput,Odisha,41.89,Moderate,43.1,58.2,33.5,82.1,98.0,79.2,40.55,Expected
+269,Deoria,Uttar Pradesh,41.84,Moderate,36.8,34.2,39.4,93.4,64.2,42.5,71.4,Expected
+270,Kushinagar,Uttar Pradesh,41.83,Moderate,32.2,42.7,36.6,89.4,65.4,35.8,68.75,Expected
+271,Kamareddy,Telangana,41.63,Moderate,33.4,59.5,43.9,97.1,75.5,79.5,63.4,Expected
+272,Hingoli,Maharastra,41.55,Moderate,37.4,51.2,38.9,94.0,76.9,66.6,72.75,Expected
+273,Latur,Maharastra,41.53,Moderate,43.2,50.7,33.9,94.7,79.2,72.6,77.9,Richer but Sicker
+273,Bhind,Madhya Pradesh,41.53,Moderate,32.2,70.3,29.0,93.5,70.7,63.1,76.85,Richer but Sicker
+275,Kargil,Ladakh,41.49,Moderate,36.5,92.8,21.8,93.7,87.5,88.0,59.75,Expected
+276,Raigarh,Chhattisgarh,41.48,Moderate,39.1,62.5,28.0,87.7,90.9,55.4,71.15,Expected
+277,Dharwad,Karnataka,41.47,Moderate,45.2,51.4,40.4,99.7,87.6,85.2,80.55,Richer but Sicker
+278,Dhanbad,Jharkhand,41.45,Moderate,27.0,64.6,25.1,78.8,66.1,44.6,69.8,Expected
+279,Mathura,Uttar Pradesh,41.43,Moderate,31.6,63.5,21.3,79.5,73.6,39.3,69.55,Expected
+279,Datia,Madhya Pradesh,41.43,Moderate,36.8,58.6,29.4,89.4,79.6,54.2,69.0,Expected
+281,Azamgarh,Uttar Pradesh,41.4,Moderate,33.4,54.2,28.0,93.2,64.5,38.5,75.85,Richer but Sicker
+282,Sundargarh,Odisha,41.37,Moderate,32.9,69.8,34.7,91.3,82.0,73.1,69.8,Expected
+283,Chandrapur,Maharastra,41.28,Moderate,37.3,55.9,46.6,99.6,95.0,68.5,82.55,Richer but Sicker
+284,Pali,Rajasthan,41.05,Moderate,35.9,59.7,35.9,98.8,90.2,45.0,79.05,Richer but Sicker
+285,Valsad,Gujarat,40.98,Moderate,37.8,75.8,34.8,96.5,91.1,92.5,84.1,Richer but Sicker
+286,Hoshangabad,Madhya Pradesh,40.94,Moderate,34.8,52.4,27.2,91.8,73.5,31.5,71.05,Expected
+287,Pratapgarh,Uttar Pradesh,40.9,Moderate,35.5,49.9,27.7,90.8,75.0,30.6,64.85,Expected
+288,Khargone (West Nimar),Madhya Pradesh,40.77,Moderate,31.4,50.5,44.0,92.8,77.4,61.3,67.75,Expected
+289,Mahabubnagar,Telangana,40.76,Moderate,42.6,55.1,33.0,98.1,89.4,62.6,66.65,Expected
+290,Wanaparthy,Telangana,40.73,Moderate,40.4,58.5,33.2,99.0,87.0,62.8,64.0,Expected
+290,Kamrup Metropolitan,Assam,40.73,Moderate,25.4,75.2,25.0,89.1,53.6,68.9,75.6,Richer but Sicker
+292,North Tripura,Tripura,40.65,Moderate,26.2,69.6,32.2,85.4,69.6,67.1,78.6,Richer but Sicker
+293,Warangal Rural,Telangana,40.64,Moderate,36.1,59.2,37.9,100.0,79.0,70.4,67.2,Expected
+294,Vizianagaram,Andhra Pradesh,40.55,Moderate,36.4,64.6,32.2,99.0,76.8,71.4,60.0,Expected
+295,Navsari,Gujarat,40.5,Moderate,36.8,68.9,43.6,99.3,95.0,94.7,82.1,Richer but Sicker
+296,Dakshin Dinajpur,West Bengal,40.41,Moderate,31.9,82.8,30.2,91.4,92.6,76.4,76.65,Richer but Sicker
+297,Anantapur,Andhra Pradesh,40.28,Moderate,36.0,50.3,40.6,94.7,81.8,66.6,67.45,Expected
+297,Doda,Jammu & Kashmir,40.28,Moderate,32.7,67.9,15.2,73.5,61.7,74.3,70.05,Expected
+299,Vikarabad,Telangana,40.22,Moderate,32.1,61.3,37.1,95.0,86.2,54.8,63.0,Expected
+300,Janjgir - Champa,Chhattisgarh,40.21,Moderate,32.5,66.6,30.2,86.2,85.5,62.8,77.9,Richer but Sicker
+301,Koriya,Chhattisgarh,40.19,Moderate,32.1,65.0,31.8,80.8,87.1,70.0,75.2,Richer but Sicker
+302,Dausa,Rajasthan,40.17,Moderate,37.7,60.3,33.5,98.2,92.1,53.6,60.8,Expected
+303,Udhampur,Jammu & Kashmir,40.03,Moderate,37.3,57.3,31.9,87.2,85.8,69.8,73.55,Expected
+304,Mansa,Punjab,40.0,Moderate,36.6,60.2,22.7,88.8,79.1,49.4,77.4,Richer but Sicker
+305,Dungarpur,Rajasthan,39.99,Moderate,31.4,73.6,25.9,94.1,83.3,50.6,64.05,Expected
+306,Faizabad,Uttar Pradesh,39.96,Moderate,30.6,52.7,27.5,89.1,68.7,33.8,71.05,Expected
+307,Kachchh,Gujarat,39.91,Moderate,37.5,58.0,33.4,97.4,70.2,84.2,80.7,Richer but Sicker
+308,Gondiya,Maharastra,39.79,Moderate,36.9,60.9,35.6,99.1,88.2,66.2,80.9,Richer but Sicker
+309,Raipur,Chhattisgarh,39.77,Moderate,32.2,59.8,32.3,90.7,74.2,65.6,82.65,Richer but Sicker
+310,Mungeli,Chhattisgarh,39.65,Moderate,30.1,54.6,30.6,69.8,79.7,67.3,74.65,Richer but Sicker
+311,Surajpur,Chhattisgarh,39.61,Moderate,27.6,61.0,32.3,85.9,78.7,48.9,71.85,Expected
+312,Mandla,Madhya Pradesh,39.55,Moderate,32.1,60.5,33.0,87.6,88.9,54.4,63.75,Expected
+313,Sambalpur,Odisha,39.53,Moderate,40.7,67.1,36.3,99.5,98.0,89.0,69.5,Expected
+314,North & Middle Andaman,Andaman & Nicobar Islands,39.38,Moderate,27.0,62.5,42.8,97.7,70.25,79.2,85.2,Richer but Sicker
+315,Dima Hasao,Assam,39.35,Moderate,30.6,61.1,21.7,89.5,63.6,46.9,85.75,Richer but Sicker
+315,Kanpur Nagar,Uttar Pradesh,39.35,Moderate,34.6,57.4,27.8,86.6,72.8,69.9,80.1,Richer but Sicker
+317,Moradabad,Uttar Pradesh,39.3,Moderate,34.7,45.5,27.0,80.3,84.5,33.2,74.2,Richer but Sicker
+317,Dhemaji,Assam,39.3,Moderate,37.2,62.9,25.7,87.3,89.7,62.2,76.15,Richer but Sicker
+319,Nalbari,Assam,39.29,Moderate,27.5,66.9,26.7,91.8,65.5,55.9,76.0,Richer but Sicker
+319,Varanasi,Uttar Pradesh,39.29,Moderate,37.4,38.2,39.0,95.2,79.3,51.4,81.9,Richer but Sicker
+321,South Tripura,Tripura,39.25,Moderate,25.5,66.8,21.6,89.7,48.5,58.4,74.45,Richer but Sicker
+322,Davanagere,Karnataka,39.19,Moderate,38.4,51.9,32.8,98.3,79.4,63.1,79.65,Richer but Sicker
+323,Gorakhpur,Uttar Pradesh,39.16,Moderate,29.6,53.4,33.7,91.6,67.7,56.3,69.85,Expected
+324,Jaunpur,Uttar Pradesh,39.04,Moderate,40.5,34.1,30.3,88.8,75.1,47.6,69.95,Expected
+325,Mahasamund,Chhattisgarh,39.03,Moderate,36.8,63.4,25.8,92.9,82.1,65.8,78.4,Richer but Sicker
+326,Dewas,Madhya Pradesh,38.97,Moderate,36.8,51.8,30.7,92.2,87.1,49.1,68.45,Expected
+327,Auraiya,Uttar Pradesh,38.95,Moderate,39.7,39.0,32.6,90.1,82.5,50.4,76.8,Richer but Sicker
+328,Golaghat,Assam,38.94,Moderate,26.3,77.2,25.5,90.4,72.4,65.7,74.1,Richer but Sicker
+329,Palwal,Haryana,38.89,Moderate,31.0,57.2,21.0,78.3,69.0,53.4,75.7,Richer but Sicker
+330,Rajkot,Gujarat,38.88,Moderate,38.9,60.6,37.0,99.3,84.9,93.5,85.05,Richer but Sicker
+331,Changlang,Arunachal Pradesh,38.83,Moderate,26.3,57.1,25.0,75.1,70.9,46.9,79.95,Richer but Sicker
+332,Ukhrul,Manipur,38.78,Moderate,27.1,21.6,16.0,44.6,39.4,38.8,84.15,Richer but Sicker
+333,Visakhapatnam,Andhra Pradesh,38.76,Moderate,31.0,58.6,33.5,95.3,76.5,58.6,73.65,Expected
+334,Botad,Gujarat,38.72,Moderate,32.2,59.1,32.3,93.5,65.1,82.7,71.9,Expected
+335,Lahul & Spiti,Himachal Pradesh,38.7,Moderate,28.5,82.3,18.4,86.4,77.9,65.6,73.95,Richer but Sicker
+336,Upper Subansiri,Arunachal Pradesh,38.67,Moderate,36.8,36.6,19.2,77.0,68.5,32.1,72.6,Expected
+336,Tirap,Arunachal Pradesh,38.67,Moderate,38.6,32.4,16.0,70.2,66.3,35.7,80.9,Richer but Sicker
+338,Chamba,Himachal Pradesh,38.64,Moderate,42.6,43.9,26.0,72.0,100.0,62.7,85.3,Richer but Sicker
+338,Bhavnagar,Gujarat,38.64,Moderate,32.6,49.1,39.5,94.2,74.3,70.9,73.55,Expected
+340,Bilaspur,Himachal Pradesh,38.63,Moderate,40.1,53.4,38.8,91.7,100.0,81.4,86.0,Richer but Sicker
+341,Majuli,Assam,38.56,Moderate,35.4,68.1,22.2,90.3,78.6,72.2,74.5,Richer but Sicker
+342,Jayashankar Bhupalapally,Telangana,38.54,Moderate,32.5,66.4,36.7,99.5,87.9,72.7,62.25,Expected
+343,Baudh,Odisha,38.48,Moderate,37.0,54.6,38.6,93.4,91.8,79.0,61.95,Expected
+344,Pune,Maharastra,38.35,Moderate,30.7,53.2,32.7,98.0,58.1,68.6,84.3,Richer but Sicker
+345,Lucknow,Uttar Pradesh,38.34,Moderate,32.1,55.9,25.5,91.3,68.9,53.1,80.1,Richer but Sicker
+346,Dimapur,Nagaland,38.33,Moderate,28.3,34.8,29.8,73.7,55.9,50.1,83.85,Richer but Sicker
+347,Ambedkar Nagar,Uttar Pradesh,38.13,Moderate,31.1,52.9,29.2,92.2,75.1,44.5,71.05,Expected
+348,Kullu,Himachal Pradesh,38.08,Moderate,35.9,53.7,25.6,87.0,80.2,60.0,84.3,Richer but Sicker
+349,Sultanpur,Uttar Pradesh,38.05,Moderate,33.4,49.5,28.3,87.0,80.2,47.0,70.0,Expected
+350,Anugul,Odisha,37.97,Moderate,28.1,75.8,30.5,85.7,87.0,83.7,70.5,Expected
+351,Muzaffarnagar,Uttar Pradesh,37.95,Moderate,29.8,46.2,29.9,87.0,69.5,44.0,76.75,Richer but Sicker
+352,Kamrup,Assam,37.94,Moderate,22.6,71.7,19.7,85.0,63.6,46.9,74.15,Richer but Sicker
+352,Kangra,Himachal Pradesh,37.94,Moderate,28.0,63.7,32.0,90.2,83.9,56.3,83.85,Richer but Sicker
+354,Amreli,Gujarat,37.92,Moderate,35.3,50.3,30.6,90.1,60.1,92.6,75.25,Expected
+355,Belgaum,Karnataka,37.87,Moderate,32.8,53.4,36.9,97.5,81.4,63.7,70.85,Poorer but Healthier
+356,Vidisha,Madhya Pradesh,37.85,Moderate,36.5,37.9,34.4,90.6,78.0,54.4,67.05,Poorer but Healthier
+357,Yadadri Bhuvanagiri,Telangana,37.84,Moderate,38.3,54.3,27.2,97.7,76.7,67.2,75.15,Expected
+358,Nirmal,Telangana,37.72,Moderate,31.7,58.1,33.4,96.7,75.3,69.7,61.1,Poorer but Healthier
+359,Morbi,Gujarat,37.67,Moderate,32.9,50.7,32.3,94.8,64.2,75.1,81.25,Expected
+360,Ashoknagar,Madhya Pradesh,37.66,Moderate,32.6,46.3,31.1,91.3,69.1,57.9,57.5,Poorer but Healthier
+361,Surguja,Chhattisgarh,37.61,Moderate,29.4,58.8,30.6,85.3,84.6,57.7,74.75,Expected
+362,Gomati,Tripura,37.6,Moderate,22.7,62.6,29.0,93.2,67.1,40.6,77.3,Expected
+363,Bargarh,Odisha,37.54,Moderate,38.9,62.8,30.0,99.6,95.9,70.1,68.8,Poorer but Healthier
+364,Warangal Urban,Telangana,37.52,Moderate,29.5,57.8,36.0,99.7,70.1,71.3,79.05,Expected
+365,South Twenty Four Pargana,West Bengal,37.48,Moderate,36.7,62.1,32.2,91.0,91.7,87.5,77.85,Expected
+366,Jhalawar,Rajasthan,37.43,Moderate,34.0,51.7,38.1,98.3,81.5,72.3,59.2,Poorer but Healthier
+367,Ujjain,Madhya Pradesh,37.42,Moderate,34.7,54.8,36.2,97.1,93.7,60.3,69.55,Poorer but Healthier
+368,Uttarkashi,Uttarakhand,37.4,Moderate,34.1,60.8,23.5,85.9,81.8,66.8,78.45,Expected
+369,Sawai Madhopur,Rajasthan,37.27,Moderate,26.9,57.6,24.2,97.4,54.9,47.3,64.3,Poorer but Healthier
+370,Barmer,Rajasthan,37.26,Moderate,39.1,50.0,31.7,93.3,92.9,64.9,75.6,Expected
+371,Gadchiroli,Maharastra,37.24,Moderate,35.7,67.1,35.4,97.3,97.9,86.8,70.9,Poorer but Healthier
+372,Anantnag,Jammu & Kashmir,37.18,Moderate,28.2,75.7,28.3,90.5,83.3,80.9,79.7,Expected
+373,West,NCT of Delhi,37.12,Moderate,36.1,57.4,19.0,91.8,67.5,67.1,80.0,Expected
+374,Karur,Tamil Nadu,37.09,Moderate,33.6,65.5,36.3,100.0,82.5,95.7,72.05,Poorer but Healthier
+374,Dibrugarh,Assam,37.09,Moderate,27.3,72.0,32.0,93.1,83.8,75.6,75.95,Expected
+376,Surat,Gujarat,37.01,Moderate,36.1,69.3,32.5,97.7,92.8,93.4,83.1,Expected
+377,Purba Medinipur,West Bengal,36.97,Moderate,25.8,70.5,30.6,91.5,88.4,56.8,73.4,Poorer but Healthier
+378,Mokokchung,Nagaland,36.96,Moderate,31.4,25.8,22.9,51.5,92.0,18.2,95.35,Expected
+378,Hugli,West Bengal,36.96,Moderate,28.9,75.1,33.4,97.0,95.4,72.2,76.8,Expected
+378,Mahabubabad,Telangana,36.96,Moderate,33.0,63.0,26.3,97.7,76.1,67.7,63.3,Poorer but Healthier
+381,Dhenkanal,Odisha,36.92,Moderate,33.3,66.1,30.0,94.8,88.6,75.8,67.65,Poorer but Healthier
+381,Sangareddy,Telangana,36.92,Moderate,32.9,47.9,35.1,93.0,78.5,66.4,65.8,Poorer but Healthier
+383,Solapur,Maharastra,36.76,Moderate,36.3,55.5,32.9,96.2,83.6,81.9,72.1,Poorer but Healthier
+384,Kalahandi,Odisha,36.72,Moderate,33.0,64.0,33.6,92.8,91.3,82.9,64.1,Poorer but Healthier
+384,Kolhapur,Maharastra,36.72,Moderate,33.6,50.1,34.7,99.2,67.2,81.8,86.35,Expected
+386,Durg,Chhattisgarh,36.69,Moderate,38.9,52.0,27.7,96.7,82.7,69.9,87.05,Expected
+387,Sirohi,Rajasthan,36.63,Moderate,30.7,65.3,31.2,95.7,86.4,69.5,58.15,Poorer but Healthier
+388,Kaithal,Haryana,36.59,Moderate,29.9,62.5,29.9,98.2,74.3,68.8,81.85,Expected
+389,Peddapalli,Telangana,36.56,Moderate,27.5,64.6,33.1,96.5,73.1,77.9,75.75,Expected
+390,Hardwar,Uttarakhand,36.49,Moderate,31.1,42.8,27.0,79.8,76.5,48.5,73.1,Poorer but Healthier
+391,Udaipur,Rajasthan,36.34,Moderate,34.0,61.4,26.6,96.1,86.8,62.3,62.25,Poorer but Healthier
+392,Ahmadnagar,Maharastra,36.33,Moderate,31.7,50.5,41.2,97.9,83.5,76.6,82.85,Expected
+393,Betul,Madhya Pradesh,36.31,Moderate,30.8,55.8,31.4,87.6,80.9,74.0,67.95,Poorer but Healthier
+394,Siddipet,Telangana,36.3,Moderate,28.1,56.9,29.6,99.7,63.1,62.6,77.55,Expected
+395,Balod,Chhattisgarh,36.29,Moderate,33.6,56.6,36.0,97.4,85.2,81.5,84.25,Expected
+396,Pratapgarh,Rajasthan,36.18,Moderate,29.0,53.0,31.8,96.4,75.8,52.9,50.85,Poorer but Healthier
+397,Firozpur,Punjab,36.14,Moderate,30.0,61.4,22.0,95.5,74.5,48.4,80.25,Expected
+398,Gurgaon,Haryana,36.08,Moderate,22.1,68.0,22.2,96.7,58.7,48.1,85.8,Expected
+399,Debagarh,Odisha,36.07,Moderate,28.4,72.1,34.3,91.2,100.0,77.5,69.7,Poorer but Healthier
+400,Bhadrak,Odisha,36.05,Moderate,32.3,63.8,28.9,96.1,83.7,74.9,72.3,Poorer but Healthier
+401,Bhandara,Maharastra,36.02,Moderate,31.3,65.4,33.9,100.0,87.0,79.0,85.45,Expected
+401,Suryapet,Telangana,36.02,Moderate,29.1,58.1,30.1,95.9,70.4,70.4,70.7,Poorer but Healthier
+403,Ranga Reddy,Telangana,36.01,Moderate,37.8,53.6,29.5,97.2,85.8,75.1,76.6,Expected
+404,Nizamabad,Telangana,36.0,Moderate,30.5,57.7,38.4,97.3,86.1,78.5,67.8,Poorer but Healthier
+405,Jangoan,Telangana,35.97,Moderate,33.4,57.3,30.9,99.6,84.2,65.4,74.9,Expected
+406,Sri Potti Sriramulu Nello,Andhra Pradesh,35.96,Moderate,29.2,59.6,27.8,97.0,65.3,73.0,76.15,Expected
+407,Chandel,Manipur,35.86,Moderate,34.0,27.7,14.7,55.5,55.5,66.6,82.7,Expected
+407,Palakkad,Kerala,35.86,Moderate,29.7,50.0,27.7,100.0,51.8,68.4,96.7,Expected
+407,Chandel,Mizoram,35.86,Moderate,34.0,27.7,14.7,55.5,55.5,66.6,82.7,Expected
+410,Hapur,Uttar Pradesh,35.77,Moderate,30.2,51.7,26.9,83.3,84.4,53.3,80.45,Expected
+411,Mahe,Puducherry,35.75,Moderate,48.2,38.8,32.6,100.0,95.3,85.0,99.75,Expected
+412,Leh(Ladakh),Ladakh,35.7,Moderate,24.3,94.6,19.0,96.4,88.9,69.6,59.4,Poorer but Healthier
+413,Rajouri,Jammu & Kashmir,35.69,Moderate,30.3,62.0,32.4,88.8,95.0,71.9,71.35,Poorer but Healthier
+414,Nagarkurnool,Telangana,35.68,Moderate,35.1,53.5,30.9,98.0,81.1,75.1,65.15,Poorer but Healthier
+415,South Garo Hills,Meghalaya,35.65,Moderate,29.8,57.7,20.8,88.3,86.8,33.3,88.5,Expected
+415,Mau,Uttar Pradesh,35.65,Moderate,25.4,44.5,30.3,94.7,59.1,43.2,74.75,Expected
+417,Akola,Maharastra,35.64,Moderate,31.8,53.2,30.8,97.7,69.5,76.3,78.5,Expected
+418,Karimnagar,Telangana,35.6,Moderate,30.3,61.1,27.5,98.4,73.4,69.6,74.55,Expected
+419,Gariyaband,Chhattisgarh,35.58,Moderate,28.9,65.0,22.1,87.6,83.4,57.8,76.55,Expected
+419,East Kameng,Arunachal Pradesh,35.58,Moderate,35.7,26.9,14.2,76.0,60.8,29.1,68.9,Poorer but Healthier
+419,Ghaziabad,Uttar Pradesh,35.58,Moderate,28.2,55.9,23.4,86.4,68.5,62.0,83.15,Expected
+422,Devbhumi Dwarka,Gujarat,35.54,Moderate,30.2,48.8,36.2,94.8,73.3,76.6,69.75,Poorer but Healthier
+423,Tawang,Arunachal Pradesh,35.52,Moderate,30.4,59.2,9.0,84.2,67.5,37.6,70.4,Poorer but Healthier
+424,Tonk,Rajasthan,35.49,Moderate,33.1,52.9,28.2,97.4,75.3,66.2,61.3,Poorer but Healthier
+425,Faridkot,Punjab,35.48,Moderate,28.1,63.4,20.7,94.3,70.8,53.4,81.4,Expected
+426,Gautam Buddha Nagar,Uttar Pradesh,35.47,Moderate,25.5,59.3,21.9,86.6,68.2,52.7,77.3,Expected
+427,Dhamtari,Chhattisgarh,35.46,Moderate,30.5,60.0,28.9,94.3,80.6,70.4,86.75,Expected
+428,Rajsamand,Rajasthan,35.43,Moderate,30.3,58.6,23.7,95.1,71.7,60.7,70.9,Poorer but Healthier
+429,Kolkata,West Bengal,35.35,Moderate,29.6,58.4,32.9,97.5,80.2,71.7,74.25,Expected
+430,Bemetara,Chhattisgarh,35.31,Moderate,38.4,46.9,27.6,95.0,93.4,54.6,77.3,Expected
+430,Daman,Dadra and Nagar Haveli & Daman and Diu,35.31,Moderate,30.0,60.8,29.3,97.4,78.3,70.5,76.5,Expected
+432,Tikamgarh,Madhya Pradesh,35.27,Moderate,27.5,49.9,34.9,89.8,79.0,64.2,63.6,Poorer but Healthier
+433,Meerut,Uttar Pradesh,35.23,Moderate,32.1,45.5,23.7,80.6,82.5,49.9,81.45,Expected
+434,Chamoli,Uttarakhand,35.22,Moderate,34.1,41.8,21.6,73.9,85.0,52.2,89.05,Expected
+435,Palghar,Maharastra,35.2,Moderate,33.0,57.2,37.1,94.2,94.0,86.3,76.35,Expected
+436,East Godavari,Andhra Pradesh,35.13,Moderate,23.1,63.2,22.4,96.6,59.0,51.0,77.8,Expected
+437,Bhiwani,Haryana,35.11,Moderate,29.0,66.8,20.6,97.7,72.5,60.4,84.85,Expected
+438,Bijnor,Uttar Pradesh,35.05,Moderate,36.2,45.9,21.9,83.7,90.6,48.8,76.15,Expected
+439,Medchal-Malkajgiri,Telangana,34.97,Moderate,33.4,57.4,25.0,98.3,76.1,69.6,82.85,Expected
+440,Junagadh,Gujarat,34.93,Moderate,37.3,58.8,26.4,97.4,93.5,72.5,82.25,Expected
+441,Baghpat,Uttar Pradesh,34.89,Moderate,25.5,52.6,26.0,80.9,83.9,42.4,82.55,Expected
+441,Raigarh,Maharastra,34.89,Moderate,35.8,53.8,34.1,96.6,92.3,83.1,77.0,Expected
+443,Bhadradri Kothagudem,Telangana,34.88,Moderate,28.4,69.3,25.3,97.4,80.4,70.1,72.0,Poorer but Healthier
+444,Churu,Rajasthan,34.86,Moderate,27.1,53.0,23.4,87.8,74.3,45.0,73.1,Poorer but Healthier
+445,Amravati,Maharastra,34.85,Moderate,29.0,53.6,38.0,91.3,92.5,71.7,81.75,Expected
+446,Bikaner,Rajasthan,34.84,Moderate,22.8,59.4,28.5,90.0,75.6,50.5,72.05,Poorer but Healthier
+447,Raisen,Madhya Pradesh,34.83,Moderate,30.4,56.9,25.4,96.0,78.5,56.6,74.1,Expected
+448,Rajgarh,Madhya Pradesh,34.81,Moderate,27.6,52.6,26.8,91.7,71.9,55.2,52.15,Poorer but Healthier
+449,Jagitial,Telangana,34.7,Moderate,29.9,56.4,32.3,94.4,77.7,81.9,69.45,Poorer but Healthier
+450,Jaisalmer,Rajasthan,34.6,Moderate,25.5,44.7,31.7,90.0,72.0,47.6,69.6,Poorer but Healthier
+451,Mumbai Suburban,Maharastra,34.56,Moderate,37.2,49.7,24.6,98.1,76.6,72.2,77.1,Expected
+452,Bundi,Rajasthan,34.55,Moderate,30.0,56.3,29.1,95.3,75.7,74.0,57.1,Poorer but Healthier
+452,Kishtwar,Jammu & Kashmir,34.55,Moderate,27.5,86.2,17.7,91.6,91.6,76.4,65.45,Poorer but Healthier
+454,West Godavari,Andhra Pradesh,34.48,Moderate,31.4,63.1,22.5,98.7,80.0,62.7,78.9,Expected
+455,Uttar Bastar Kanker,Chhattisgarh,34.46,Moderate,24.8,66.3,36.1,94.1,89.5,77.9,79.5,Expected
+456,Bathinda,Punjab,34.45,Moderate,23.0,59.7,23.8,93.1,66.5,48.2,80.45,Expected
+457,Dhar,Madhya Pradesh,34.41,Moderate,28.8,49.5,35.9,95.5,75.4,76.5,60.25,Poorer but Healthier
+457,Nalgonda,Telangana,34.41,Moderate,31.7,54.2,28.0,98.3,78.3,65.7,69.5,Poorer but Healthier
+459,Darjiling,West Bengal,34.3,Moderate,34.3,59.1,31.6,98.4,94.2,79.2,80.0,Expected
+460,Garhwal,Uttarakhand,34.18,Moderate,30.0,40.8,18.8,76.0,76.0,39.6,84.55,Expected
+461,Faridabad,Haryana,34.07,Moderate,28.9,54.8,19.5,92.5,69.5,51.2,84.3,Expected
+462,Kabeerdham,Chhattisgarh,34.02,Moderate,37.9,43.9,27.3,91.7,95.4,58.9,74.05,Expected
+463,West Tripura,Tripura,34.01,Moderate,30.3,67.6,21.2,95.3,88.4,61.2,83.2,Expected
+464,Shamli,Uttar Pradesh,33.96,Moderate,28.6,42.4,27.5,78.3,91.1,41.0,74.55,Expected
+465,Mancherial,Telangana,33.91,Moderate,25.9,57.1,27.4,90.1,76.0,64.7,73.8,Poorer but Healthier
+466,Balangir,Odisha,33.9,Moderate,32.7,59.7,37.6,97.9,95.8,95.4,68.05,Poorer but Healthier
+467,Barnala,Punjab,33.7,Moderate,33.8,55.2,16.5,96.7,68.5,63.8,84.75,Expected
+468,Mandsaur,Madhya Pradesh,33.67,Moderate,30.9,57.0,22.9,99.4,75.1,60.8,66.3,Poorer but Healthier
+468,Prakasam,Andhra Pradesh,33.67,Moderate,22.6,60.6,24.7,97.4,51.9,73.4,70.6,Poorer but Healthier
+470,Chittoor,Andhra Pradesh,33.5,Moderate,27.1,51.8,27.9,97.1,66.6,65.3,71.95,Poorer but Healthier
+471,Jodhpur,Rajasthan,33.48,Moderate,32.6,44.2,25.4,90.0,81.2,56.7,71.8,Poorer but Healthier
+472,Osmanabad,Maharastra,33.46,Moderate,37.2,49.3,32.5,98.1,89.3,89.2,77.45,Expected
+473,Nagaur,Rajasthan,33.41,Moderate,31.5,45.6,26.2,97.0,80.6,46.2,73.4,Poorer but Healthier
+474,Koch Bihar,West Bengal,33.28,Moderate,28.7,74.9,22.5,93.0,94.2,77.3,77.45,Expected
+475,Sivasagar,Assam,33.26,Moderate,26.1,68.0,25.9,95.3,77.6,80.9,84.45,Expected
+476,Sangli,Maharastra,33.25,Moderate,35.0,47.6,27.2,98.0,75.0,80.1,87.5,Expected
+477,Kandhamal,Odisha,33.18,Moderate,34.2,48.8,35.2,93.9,96.8,81.1,61.35,Poorer but Healthier
+478,Haveri,Karnataka,33.16,Moderate,29.9,50.4,35.0,97.2,95.7,58.7,70.2,Poorer but Healthier
+479,East,NCT of Delhi,33.15,Moderate,35.2,42.6,29.9,92.6,74.6,89.7,81.15,Expected
+480,Rohtak,Haryana,33.09,Moderate,28.9,64.8,22.1,97.4,77.4,72.3,89.25,Expected
+481,Neemuch,Madhya Pradesh,33.08,Moderate,33.0,50.6,27.7,97.5,88.7,60.6,68.7,Poorer but Healthier
+481,Una,Himachal Pradesh,33.08,Moderate,24.7,60.8,25.8,89.7,75.3,71.7,86.95,Expected
+483,Y.S.R.,Andhra Pradesh,33.06,Moderate,34.4,56.1,26.7,99.4,83.0,82.8,74.6,Expected
+483,Jalpaiguri,West Bengal,33.06,Moderate,28.9,72.2,25.4,95.8,87.9,88.4,73.4,Poorer but Healthier
+485,Nadia,West Bengal,33.02,Moderate,26.1,73.8,25.1,97.7,89.9,71.2,77.3,Expected
+486,Ratlam,Madhya Pradesh,32.79,Moderate,29.0,59.4,28.6,95.2,93.0,65.1,66.4,Poorer but Healthier
+487,Papum Pare,Arunachal Pradesh,32.73,Moderate,29.7,39.4,15.6,88.0,60.7,39.3,76.95,Expected
+488,Ramban,Jammu & Kashmir,32.56,Moderate,25.7,61.7,21.2,80.4,78.9,79.2,55.55,Poorer but Healthier
+488,Kra Daadi,Arunachal Pradesh,32.56,Moderate,28.8,24.3,14.5,73.5,63.6,18.3,72.3,Poorer but Healthier
+490,Sehore,Madhya Pradesh,32.51,Moderate,21.9,44.8,27.6,94.7,60.3,45.0,72.45,Poorer but Healthier
+491,Panipat,Haryana,32.42,Moderate,25.1,66.8,18.9,97.1,80.6,49.2,82.6,Expected
+491,Tamenglong,Manipur,32.42,Moderate,27.1,26.9,19.3,57.7,67.4,56.4,77.35,Expected
+493,Jind,Haryana,32.39,Moderate,25.5,59.5,22.9,98.7,77.5,49.6,86.05,Expected
+494,Narsimhapur,Madhya Pradesh,32.38,Moderate,32.0,46.6,28.1,91.4,82.7,74.2,75.3,Expected
+495,Badgam,Jammu & Kashmir,32.36,Moderate,26.8,75.0,20.6,96.5,92.5,66.5,75.55,Expected
+496,Anuppur,Madhya Pradesh,32.35,Moderate,24.0,52.5,30.7,84.8,86.6,63.6,72.2,Poorer but Healthier
+497,Wardha,Maharastra,32.26,Moderate,27.7,60.7,31.3,98.8,92.4,70.4,86.6,Expected
+498,Senapati,Manipur,32.22,Moderate,27.3,27.9,12.9,45.8,65.0,64.9,83.15,Expected
+499,Kurung Kumey,Arunachal Pradesh,32.21,Moderate,29.2,35.5,13.9,69.2,71.4,44.1,77.4,Expected
+500,Tumkur,Karnataka,32.1,Moderate,40.3,48.9,26.7,100.0,97.7,80.4,84.0,Expected
+501,Saharanpur,Uttar Pradesh,32.08,Moderate,28.8,41.8,26.7,81.7,89.2,52.4,78.8,Expected
+502,Sahibzada Ajit Singh Nagar,Punjab,32.05,Moderate,26.2,59.6,23.0,97.4,71.1,69.0,87.15,Expected
+502,North East,NCT of Delhi,32.05,Moderate,38.7,46.1,21.8,89.2,86.4,86.2,87.3,Expected
+504,Chhindwara,Madhya Pradesh,32.03,Moderate,23.9,41.8,32.8,92.2,65.3,67.0,76.05,Expected
+505,Haora,West Bengal,32.02,Moderate,27.5,65.6,27.3,95.5,87.8,82.7,76.7,Expected
+506,Guna,Madhya Pradesh,32.0,Moderate,31.9,49.6,25.1,98.0,78.8,68.3,56.2,Poorer but Healthier
+506,Upper Siang,Arunachal Pradesh,32.0,Moderate,30.4,29.4,12.0,76.0,61.4,34.0,83.1,Expected
+508,Shahdara,NCT of Delhi,31.96,Moderate,32.9,49.4,30.2,95.8,82.5,88.9,84.45,Expected
+509,Central,NCT of Delhi,31.91,Moderate,33.5,45.1,25.5,92.2,82.1,73.1,80.85,Expected
+510,Guntur,Andhra Pradesh,31.88,Moderate,23.8,59.8,26.9,98.6,76.2,62.5,75.95,Expected
+511,Rajnandgaon,Chhattisgarh,31.82,Moderate,27.6,58.6,31.0,95.5,91.0,76.1,80.8,Expected
+512,Kapurthala,Punjab,31.79,Moderate,24.6,54.7,19.2,95.0,65.7,51.4,86.5,Expected
+513,Seoni,Madhya Pradesh,31.77,Moderate,23.5,60.0,31.1,94.8,88.8,64.5,64.95,Poorer but Healthier
+514,Subarnapur,Odisha,31.7,Moderate,29.6,58.8,34.5,96.1,98.0,87.8,72.95,Poorer but Healthier
+515,Kurukshetra,Haryana,31.65,Moderate,24.9,57.5,22.5,98.4,69.8,59.8,83.25,Expected
+515,Chitradurga,Karnataka,31.65,Moderate,36.0,44.2,32.4,98.3,94.6,79.3,69.35,Poorer but Healthier
+517,Nagpur,Maharastra,31.6,Moderate,27.6,54.0,33.9,100.0,89.4,71.4,91.75,Expected
+518,Jamnagar,Gujarat,31.55,Moderate,28.4,50.6,28.9,96.5,78.4,73.8,84.85,Expected
+519,Tehri Garhwal,Uttarakhand,31.47,Moderate,29.3,41.9,20.7,82.2,83.0,48.9,80.05,Expected
+520,Sindhudurg,Maharastra,31.3,Moderate,30.8,41.3,32.0,100.0,76.3,73.4,90.0,Expected
+521,Charkhi Dadri,Haryana,31.29,Moderate,23.9,73.1,16.9,98.9,84.2,53.4,87.4,Expected
+522,Sirsa,Haryana,31.26,Moderate,25.0,62.1,23.4,99.3,79.3,61.9,77.5,Expected
+523,North Twenty Four Pargana,West Bengal,31.25,Moderate,32.4,65.4,23.6,97.5,92.8,89.9,82.95,Expected
+524,Ratnagiri,Maharastra,31.12,Moderate,31.7,43.4,29.5,97.8,77.2,78.6,86.4,Expected
+525,Uttara Kannada,Karnataka,31.05,Moderate,29.6,45.0,33.3,99.3,93.6,57.9,86.95,Expected
+526,Jajapur,Odisha,31.02,Moderate,25.5,63.4,21.8,93.8,79.5,73.8,62.9,Poorer but Healthier
+527,Fatehgarh Sahib,Punjab,30.99,Moderate,30.0,64.7,18.2,96.6,83.6,76.0,87.4,Expected
+528,Baramula,Jammu & Kashmir,30.97,Moderate,23.2,73.1,17.3,96.2,73.7,75.2,72.8,Poorer but Healthier
+529,Fatehabad,Haryana,30.92,Moderate,24.6,62.5,26.6,97.9,90.7,60.1,80.25,Expected
+530,Yamunanagar,Haryana,30.9,Moderate,27.7,56.3,23.1,94.8,82.9,66.4,85.3,Expected
+531,Hisar,Haryana,30.85,Moderate,27.8,64.0,21.4,98.2,85.5,69.9,84.45,Expected
+532,Hanumangarh,Rajasthan,30.77,Moderate,24.2,60.4,21.3,94.9,83.3,53.1,76.75,Expected
+533,Virudhunagar,Tamil Nadu,30.74,Moderate,29.2,57.1,23.7,97.8,76.7,83.4,72.55,Poorer but Healthier
+534,Hamirpur,Himachal Pradesh,30.73,Moderate,27.3,49.4,23.6,97.6,74.3,59.4,90.15,Expected
+535,Kinnaur,Himachal Pradesh,30.65,Moderate,32.2,52.2,18.9,82.7,91.7,75.3,84.6,Expected
+535,Kupwara,Jammu & Kashmir,30.65,Moderate,24.9,75.6,25.5,97.1,93.2,89.2,71.85,Poorer but Healthier
+537,West Siang,Arunachal Pradesh,30.58,Moderate,24.5,31.2,16.2,84.6,55.4,30.4,82.8,Expected
+538,Pudukkottai,Tamil Nadu,30.57,Moderate,32.2,62.5,21.6,100.0,83.3,91.6,69.45,Poorer but Healthier
+539,Rewari,Haryana,30.54,Moderate,25.9,61.9,20.5,98.7,79.3,63.8,86.9,Expected
+540,North,NCT of Delhi,30.44,Moderate,25.0,47.1,17.4,89.7,66.2,50.6,76.05,Expected
+541,Hyderabad,Telangana,30.28,Moderate,30.4,52.5,18.9,98.3,73.8,69.9,84.0,Expected
+542,Diu,Dadra and Nagar Haveli & Daman and Diu,30.26,Moderate,33.9,50.4,28.5,95.7,92.9,90.7,90.25,Expected
+543,Ganganagar,Rajasthan,30.09,Moderate,24.5,58.8,26.1,97.7,89.7,58.7,77.2,Expected
+544,Nagapattinam,Tamil Nadu,29.98,Moderate,32.3,63.2,24.3,99.7,93.8,93.1,79.45,Expected
+545,Kohima,Nagaland,29.93,Moderate,28.3,15.6,22.1,66.9,82.8,28.3,91.3,Expected
+546,Mahendragarh,Haryana,29.9,Moderate,25.2,61.2,15.4,98.9,73.9,55.2,81.25,Expected
+547,South,NCT of Delhi,29.73,Moderate,33.4,46.3,18.9,82.0,86.2,85.6,88.05,Expected
+548,Lower Subansiri,Arunachal Pradesh,29.71,Moderate,30.7,41.1,8.1,89.8,66.5,39.1,79.8,Expected
+549,West Kameng,Arunachal Pradesh,29.68,Moderate,24.2,38.4,13.4,93.6,56.2,27.6,81.3,Expected
+550,Krishna,Andhra Pradesh,29.66,Moderate,29.8,60.4,21.1,98.9,90.0,73.3,78.0,Expected
+551,Shupiyan,Jammu & Kashmir,29.65,Moderate,22.0,65.5,33.5,98.3,92.2,86.8,83.65,Expected
+552,Mandi,Himachal Pradesh,29.64,Moderate,31.3,49.0,21.3,86.6,94.1,70.3,90.5,Expected
+553,Solan,Himachal Pradesh,29.63,Moderate,32.3,48.4,26.7,90.2,92.6,88.2,86.4,Expected
+554,Udham Singh Nagar,Uttarakhand,29.51,Moderate,26.8,51.1,22.0,85.1,83.2,75.9,71.6,Poorer but Healthier
+555,Kota,Rajasthan,29.49,Moderate,29.5,51.8,26.4,97.9,84.4,81.3,78.45,Expected
+556,Longding,Arunachal Pradesh,29.38,Moderate,15.8,35.0,13.8,64.5,52.7,39.6,77.7,Expected
+557,Bandipore,Jammu & Kashmir,29.32,Moderate,25.2,74.3,16.8,92.8,90.3,82.6,66.7,Poorer but Healthier
+558,Ajmer,Rajasthan,29.12,Moderate,22.3,52.5,23.1,95.1,78.9,52.8,73.85,Poorer but Healthier
+559,Almora,Uttarakhand,29.08,Moderate,26.0,34.0,22.9,80.1,85.1,44.3,88.6,Expected
+560,New Delhi,NCT of Delhi,29.06,Moderate,27.4,56.1,20.7,91.8,82.2,80.1,76.65,Expected
+561,Chittaurgarh,Rajasthan,29.02,Moderate,31.4,45.4,25.9,96.8,87.8,75.0,60.65,Poorer but Healthier
+562,Kathua,Jammu & Kashmir,29.01,Moderate,21.8,55.2,25.9,97.1,100.0,31.6,81.55,Expected
+562,East Siang,Arunachal Pradesh,29.01,Moderate,24.6,35.3,10.3,90.8,48.8,34.3,83.85,Expected
+564,Baleshwar,Odisha,28.99,Moderate,24.4,61.5,22.6,97.6,94.1,56.6,73.7,Poorer but Healthier
+565,Jharsuguda,Odisha,28.9,Moderate,27.1,68.1,26.9,98.6,97.6,94.1,75.5,Expected
+566,North West,NCT of Delhi,28.88,Moderate,26.9,51.7,22.8,94.0,78.3,77.9,87.3,Expected
+567,Ludhiana,Punjab,28.87,Moderate,22.1,65.0,12.4,90.1,73.2,65.2,84.95,Expected
+568,Perambalur,Tamil Nadu,28.75,Moderate,29.1,66.9,22.3,100.0,92.5,92.2,70.2,Poorer but Healthier
+569,Kendrapara,Odisha,28.67,Moderate,28.6,58.9,17.9,96.7,82.8,77.1,72.0,Poorer but Healthier
+570,Ganderbal,Jammu & Kashmir,28.61,Moderate,18.5,77.9,20.1,98.0,81.2,80.4,71.2,Poorer but Healthier
+571,Bhopal,Madhya Pradesh,28.59,Moderate,19.9,53.9,29.1,98.3,78.5,64.6,80.45,Expected
+572,Chikkaballapura,Karnataka,28.57,Moderate,31.3,45.8,25.2,99.0,76.6,90.5,80.6,Expected
+573,Bangalore,Karnataka,28.51,Moderate,31.3,36.0,28.1,99.3,78.2,74.6,88.85,Expected
+574,Karnal,Haryana,28.5,Moderate,29.2,62.1,20.5,99.0,88.9,84.7,84.0,Expected
+575,Lohit,Arunachal Pradesh,28.48,Moderate,24.5,47.6,12.9,90.2,74.0,39.6,78.55,Expected
+575,Indore,Madhya Pradesh,28.48,Moderate,28.7,47.9,24.9,96.5,84.6,74.6,85.85,Expected
+577,Rajanna Sircilla,Telangana,28.47,Moderate,22.4,56.6,26.1,97.6,84.1,67.1,71.05,Poorer but Healthier
+578,Tiruchirappalli,Tamil Nadu,28.39,Moderate,27.6,62.5,27.4,98.6,97.1,90.5,75.95,Expected
+579,Khammam,Telangana,28.38,Moderate,22.2,62.2,26.2,97.9,86.6,76.3,75.4,Expected
+580,Shajapur,Madhya Pradesh,28.35,Moderate,27.8,45.9,27.6,98.1,90.0,64.7,68.25,Poorer but Healthier
+581,Chandigarh,Chandigarh,28.31,Moderate,25.3,60.1,20.6,96.9,80.9,78.7,84.0,Expected
+582,Chamarajanagar,Karnataka,28.24,Moderate,32.2,46.4,28.7,100.0,93.3,84.1,73.8,Poorer but Healthier
+583,Mumbai,Maharastra,28.23,Moderate,26.6,46.9,29.6,99.5,76.6,87.1,76.45,Expected
+584,Reasi,Jammu & Kashmir,28.2,Moderate,17.7,65.1,11.7,69.3,79.1,75.9,65.45,Poorer but Healthier
+585,Jabalpur,Madhya Pradesh,28.18,Moderate,18.0,48.6,31.3,94.7,78.5,60.4,67.15,Poorer but Healthier
+586,Gurdaspur,Punjab,28.04,Moderate,25.1,55.7,15.3,92.4,80.0,61.1,84.9,Expected
+587,Jaipur,Rajasthan,28.02,Moderate,25.0,54.4,20.8,97.3,89.3,53.5,76.7,Expected
+588,Jammu,Jammu & Kashmir,27.96,Moderate,27.0,68.2,17.6,96.5,84.1,95.4,86.35,Expected
+589,Dibang Valley,Arunachal Pradesh,27.93,Moderate,16.9,64.3,16.0,85.5,90.7,40.4,86.4,Expected
+590,Sirmaur,Himachal Pradesh,27.87,Moderate,28.6,50.2,24.2,87.4,93.9,85.2,84.6,Expected
+591,Kulgam,Jammu & Kashmir,27.83,Moderate,28.4,77.5,15.3,98.9,98.1,92.2,75.7,Expected
+592,Tarn Taran,Punjab,27.71,Moderate,23.8,61.9,14.4,96.0,81.8,60.3,75.3,Expected
+592,Bangalore Rural,Karnataka,27.71,Moderate,36.6,44.6,23.8,100.0,92.7,90.9,86.3,Expected
+594,Shimoga,Karnataka,27.63,Moderate,29.0,42.1,34.4,99.7,96.1,79.4,82.6,Expected
+595,Sikar,Rajasthan,27.29,Moderate,23.1,44.3,18.3,95.8,70.0,50.4,75.6,Expected
+596,Patiala,Punjab,27.24,Moderate,20.3,65.1,16.9,97.3,74.7,72.0,83.35,Expected
+597,South West,NCT of Delhi,27.14,Moderate,27.1,56.7,16.8,92.5,77.3,91.0,87.25,Expected
+598,Bhilwara,Rajasthan,27.03,Moderate,22.6,50.7,23.5,95.0,83.2,64.7,60.2,Poorer but Healthier
+599,Pulwama,Jammu & Kashmir,27.02,Moderate,22.4,74.7,20.2,97.8,88.8,96.2,84.1,Expected
+600,Sivaganga,Tamil Nadu,26.94,Moderate,27.6,51.6,28.4,100.0,89.4,90.9,81.2,Expected
+601,Sangrur,Punjab,26.83,Moderate,23.4,52.7,18.1,94.7,89.6,47.7,86.1,Expected
+602,Moga,Punjab,26.77,Moderate,22.0,54.7,16.8,93.0,80.6,58.4,81.9,Expected
+603,Tiruvannamalai,Tamil Nadu,26.68,Moderate,30.6,56.3,25.0,99.1,97.1,97.7,71.7,Poorer but Healthier
+604,Punch,Jammu & Kashmir,26.61,Moderate,25.9,56.3,18.8,86.0,91.2,86.4,73.0,Poorer but Healthier
+605,Anjaw,Arunachal Pradesh,26.44,Moderate,23.6,36.9,16.0,78.0,93.0,32.3,77.35,Expected
+606,Madurai,Tamil Nadu,26.38,Moderate,32.4,48.3,21.5,100.0,88.8,89.5,83.7,Expected
+607,Kancheepuram,Tamil Nadu,26.35,Moderate,20.6,57.0,19.8,100.0,69.1,76.1,80.2,Expected
+608,Jhunjhunun,Rajasthan,26.29,Moderate,20.9,55.5,19.6,97.1,88.7,49.2,77.55,Expected
+609,Mamit,Mizoram,26.28,Moderate,26.4,35.1,13.9,75.0,85.9,52.5,91.15,Expected
+610,Srinagar,Jammu & Kashmir,25.97,Moderate,33.0,52.5,15.8,99.2,90.9,85.1,82.6,Expected
+611,Churachandpur,Manipur,25.94,Moderate,25.1,31.0,9.8,72.9,64.9,61.3,82.7,Expected
+612,Srikakulam,Andhra Pradesh,25.86,Moderate,19.7,62.8,21.4,97.9,82.8,78.4,67.95,Poorer but Healthier
+613,Tirunelveli,Tamil Nadu,25.79,Moderate,29.4,51.5,22.7,100.0,93.3,85.0,83.55,Expected
+614,Jalandhar,Punjab,25.74,Moderate,24.8,57.3,16.7,92.3,91.3,72.8,88.15,Expected
+614,Pathankot,Punjab,25.74,Moderate,22.1,55.8,10.8,94.8,77.4,52.4,84.85,Expected
+616,South East,NCT of Delhi,25.67,Moderate,21.7,48.3,20.4,96.1,64.6,83.2,85.3,Expected
+617,Nicobars,Andaman & Nicobar Islands,25.59,Moderate,21.6,38.4,24.6,97.8,64.2,71.7,85.5,Expected
+618,Lunglei,Mizoram,25.37,Moderate,26.5,35.1,11.1,82.7,73.8,56.7,93.6,Expected
+619,Mysore,Karnataka,25.36,Moderate,27.5,48.7,28.2,100.0,97.2,85.7,82.65,Expected
+620,Ganjam,Odisha,25.23,Moderate,23.9,56.9,18.9,93.0,88.5,82.7,72.4,Poorer but Healthier
+621,Ariyalur,Tamil Nadu,25.17,Moderate,25.3,62.4,20.1,100.0,90.8,91.4,66.0,Poorer but Healthier
+622,Kodagu,Karnataka,25.13,Moderate,30.4,39.6,22.6,98.4,90.6,74.4,91.2,Expected
+622,Satara,Maharastra,25.13,Moderate,20.2,50.2,28.0,97.1,82.8,81.7,82.95,Expected
+624,Amritsar,Punjab,24.89,Low,19.4,52.6,11.2,95.9,65.8,56.5,83.85,Expected
+625,Kolasib,Mizoram,24.81,Low,30.4,37.3,12.6,91.4,80.4,66.0,96.85,Expected
+625,Chikmagalur,Karnataka,24.81,Low,27.3,41.0,25.4,98.4,91.0,74.3,87.6,Expected
+627,Panchkula,Haryana,24.8,Low,21.8,57.4,19.3,97.0,85.1,76.9,85.25,Expected
+627,Viluppuram,Tamil Nadu,24.8,Low,23.9,62.6,20.5,99.1,88.5,94.9,65.8,Poorer but Healthier
+629,Nainital,Uttarakhand,24.76,Low,23.2,34.6,14.8,81.2,74.1,59.7,83.9,Expected
+630,Ramanathapuram,Tamil Nadu,24.6,Low,26.4,53.8,21.6,99.6,90.4,88.2,82.35,Expected
+631,Dehradun,Uttarakhand,24.51,Low,20.9,47.9,19.1,91.7,76.0,75.3,85.75,Expected
+632,North  District,Sikkim,24.34,Low,31.8,37.0,15.3,97.3,90.8,59.4,82.6,Expected
+633,Siang,Arunachal Pradesh,24.29,Low,21.3,24.4,8.8,81.1,60.3,31.1,89.3,Expected
+634,Udupi,Karnataka,24.24,Low,23.1,47.2,21.0,98.9,89.9,59.4,92.4,Expected
+635,Ambala,Haryana,24.08,Low,24.1,46.5,13.7,97.8,79.3,57.4,88.05,Expected
+636,Rupnagar,Punjab,24.07,Low,15.1,64.4,15.3,97.8,76.5,65.2,86.45,Expected
+637,Dindigul,Tamil Nadu,23.96,Low,27.1,42.9,28.4,97.0,92.6,96.2,71.0,Poorer but Healthier
+638,Vellore,Tamil Nadu,23.8,Low,29.8,50.7,19.7,99.5,92.7,95.4,80.45,Expected
+638,Cuddalore,Tamil Nadu,23.8,Low,20.2,58.6,18.0,99.2,79.0,82.2,70.9,Poorer but Healthier
+640,South Andaman,Andaman & Nicobar Islands,23.79,Low,21.1,57.6,17.4,99.5,76.3,85.9,88.0,Expected
+641,Cuttack,Odisha,23.77,Low,20.4,64.7,18.9,98.9,90.4,84.2,71.7,Poorer but Healthier
+641,Serchhip,Mizoram,23.77,Low,31.8,31.7,14.4,96.2,84.7,60.3,98.95,Expected
+643,Thanjavur,Tamil Nadu,23.73,Low,19.6,59.1,21.9,100.0,78.5,93.7,83.0,Expected
+644,Karaikal,Puducherry,23.64,Low,25.5,53.7,19.7,99.6,88.9,88.3,86.95,Expected
+645,Sonipat,Haryana,23.43,Low,23.6,53.0,12.7,99.7,83.0,64.1,87.9,Expected
+646,Salem,Tamil Nadu,23.42,Low,23.6,46.5,20.8,100.0,77.0,85.0,73.85,Poorer but Healthier
+647,Samba,Jammu & Kashmir,23.26,Low,24.5,63.6,15.5,97.9,90.9,96.2,81.8,Expected
+648,North Goa,Goa,23.1,Low,24.2,40.2,25.8,99.6,78.6,91.3,90.05,Expected
+649,Dakshina Kannada,Karnataka,23.04,Low,25.1,38.9,26.4,100.0,86.8,82.0,94.9,Expected
+650,Hassan,Karnataka,22.98,Low,27.1,42.0,23.8,100.0,96.8,75.8,84.95,Expected
+651,Kolar,Karnataka,22.78,Low,31.1,43.8,15.7,99.6,86.3,90.9,83.75,Expected
+652,Yanam,Puducherry,22.75,Low,25.0,43.5,18.7,100.0,79.7,79.8,83.7,Expected
+653,Lakshadweep,Lakshadweep,22.72,Low,32.0,26.0,25.8,99.6,86.1,88.3,98.15,Expected
+654,Krishnagiri,Tamil Nadu,22.71,Low,29.0,44.3,19.3,99.6,87.3,93.1,77.9,Expected
+655,Dharmapuri,Tamil Nadu,22.7,Low,28.7,42.0,23.2,99.6,90.6,94.5,76.5,Expected
+656,Malappuram,Kerala,22.55,Low,29.4,34.5,21.4,100.0,80.3,90.4,99.55,Expected
+656,Kottayam,Kerala,22.55,Low,23.4,38.6,17.3,98.7,82.6,55.1,99.15,Expected
+658,Champawat,Uttarakhand,22.47,Low,24.9,32.6,15.3,79.8,91.9,62.0,83.7,Expected
+658,The Nilgiris,Tamil Nadu,22.47,Low,26.7,44.4,23.2,100.0,90.1,92.5,87.1,Expected
+660,Tiruppur,Tamil Nadu,22.42,Low,21.5,55.9,23.1,100.0,90.6,93.5,81.7,Expected
+661,Alappuzha,Kerala,22.36,Low,20.1,32.0,20.4,99.4,61.9,65.7,99.45,Expected
+662,South Goa,Goa,22.21,Low,28.3,37.3,21.0,100.0,78.6,96.0,91.0,Expected
+663,Nayagarh,Odisha,22.04,Low,20.0,62.6,20.2,98.3,96.1,90.3,74.5,Expected
+664,Khordha,Odisha,22.01,Low,17.1,67.9,16.9,97.8,87.9,91.0,79.45,Expected
+665,Thoubal,Manipur,21.96,Low,31.5,23.8,14.9,87.8,74.2,89.9,73.35,Poorer but Healthier
+666,Erode,Tamil Nadu,21.63,Low,19.4,55.3,26.9,100.0,95.9,93.9,75.35,Expected
+667,Pithoragarh,Uttarakhand,21.6,Low,25.6,25.2,20.6,84.9,96.0,58.7,86.8,Expected
+668,Shimla,Himachal Pradesh,21.47,Low,27.1,46.7,14.9,92.2,96.5,85.3,90.35,Expected
+669,Namakkal,Tamil Nadu,21.3,Low,25.2,51.9,15.7,100.0,83.9,97.8,82.05,Expected
+670,West District,Sikkim,21.19,Low,25.2,42.6,19.3,99.3,96.9,70.4,87.3,Expected
+671,Thiruvallur,Tamil Nadu,21.15,Low,18.1,56.9,20.6,100.0,88.6,85.4,80.75,Expected
+672,Thoothukkudi,Tamil Nadu,20.96,Low,20.3,56.3,21.0,100.0,100.0,80.7,84.85,Expected
+673,Porbandar,Gujarat,20.79,Low,18.2,47.4,25.5,100.0,82.9,92.1,85.0,Expected
+674,Wayanad,Kerala,20.66,Low,31.3,27.0,22.5,100.0,86.4,94.2,95.65,Expected
+675,Thiruvarur,Tamil Nadu,20.62,Low,19.8,58.3,21.5,100.0,97.1,92.3,81.1,Expected
+676,Hoshiarpur,Punjab,20.48,Low,19.3,54.2,12.4,98.3,92.9,59.7,91.25,Expected
+677,Aizawl,Mizoram,20.45,Low,25.3,31.6,9.6,97.4,66.4,68.5,97.5,Expected
+678,East District,Sikkim,20.42,Low,17.8,43.3,13.0,91.8,90.8,43.8,87.55,Expected
+679,Rudraprayag,Uttarakhand,20.33,Low,25.2,40.7,10.9,86.6,91.4,76.5,87.0,Expected
+680,Idukki,Kerala,20.32,Low,24.3,32.4,23.6,100.0,89.6,74.3,95.95,Expected
+681,Thrissur,Kerala,20.27,Low,22.0,44.9,17.3,100.0,82.6,82.4,99.45,Expected
+682,Thiruvananthapuram,Kerala,19.61,Low,19.5,32.5,15.2,99.5,72.8,55.3,96.95,Expected
+683,Jhajjar,Haryana,19.49,Low,15.6,59.9,9.7,97.2,90.9,60.1,90.4,Expected
+684,Coimbatore,Tamil Nadu,19.48,Low,23.0,48.8,18.5,100.0,94.5,90.0,84.55,Expected
+685,Chennai,Tamil Nadu,19.44,Low,20.4,50.5,21.9,100.0,96.6,89.9,93.25,Expected
+686,Puducherry,Puducherry,19.31,Low,17.0,57.5,13.1,99.5,80.1,87.0,88.15,Expected
+687,Mandya,Karnataka,19.27,Low,24.3,47.1,16.7,99.5,93.9,90.1,82.5,Expected
+688,Bageshwar,Uttarakhand,19.1,Low,23.6,27.8,11.9,82.0,86.9,67.9,88.15,Expected
+689,Kannur,Kerala,19.03,Low,19.4,39.7,17.9,100.0,77.7,78.3,99.3,Expected
+690,Champhai,Mizoram,18.94,Low,27.2,26.1,13.1,96.7,85.3,63.4,98.0,Expected
+691,Kasaragod,Kerala,18.6,Low,25.3,35.6,21.4,100.0,92.5,91.2,97.4,Expected
+692,Ernakulam,Kerala,17.98,Low,22.0,32.1,19.4,99.1,82.6,82.2,99.3,Expected
+693,Lower Dibang Valley,Arunachal Pradesh,17.92,Low,14.3,35.3,9.7,90.1,73.8,48.6,85.75,Expected
+694,Bishnupur,Manipur,17.58,Low,15.5,35.6,11.7,89.5,66.6,77.4,70.5,Poorer but Healthier
+695,Imphal East,Manipur,17.26,Low,18.4,36.3,14.4,91.7,76.2,87.1,74.75,Expected
+696,Shahid Bhagat Singh Nagar,Punjab,16.8,Low,17.9,49.9,11.2,99.3,100.0,60.5,90.6,Expected
+697,South District,Sikkim,16.48,Low,24.8,39.9,7.2,97.4,86.4,84.5,91.1,Expected
+698,Pathanamthitta,Kerala,16.41,Low,22.7,36.9,11.2,99.1,82.6,83.9,99.3,Expected
+699,Jagatsinghapur,Odisha,16.16,Low,13.2,60.4,11.0,98.3,91.3,82.6,73.2,Poorer but Healthier
+700,Puri,Odisha,15.4,Low,13.8,63.3,11.3,97.7,95.8,94.9,77.5,Expected
+701,Theni,Tamil Nadu,15.18,Low,20.2,41.3,18.8,100.0,95.2,98.7,80.65,Expected
+702,Kozhikode,Kerala,14.75,Low,21.3,30.2,18.9,100.0,88.8,91.8,99.35,Expected
+703,Kanniyakumari,Tamil Nadu,14.56,Low,17.3,45.5,14.5,100.0,96.0,84.2,97.1,Expected
+704,Kollam,Kerala,14.53,Low,15.5,36.7,17.0,100.0,85.4,79.3,97.85,Expected
+705,Ramanagara,Karnataka,14.41,Low,15.6,45.3,19.8,100.0,100.0,88.7,86.15,Expected
+706,Imphal West,Manipur,10.67,Low,15.6,26.4,10.2,95.7,74.1,93.4,75.6,Expected

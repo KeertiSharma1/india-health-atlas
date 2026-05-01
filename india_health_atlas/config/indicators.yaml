@@ -1,0 +1,66 @@
+# ─────────────────────────────────────────────────────────────────
+#  India Health Atlas — Indicator Configuration
+#  Edit the weights here to experiment. They must sum to 1.0.
+# ─────────────────────────────────────────────────────────────────
+
+indicators:
+  stunting:
+    label: "Stunting in Children under 5"
+    column: "Children under 5 years who are stunted (height-for-age)18 (%)"
+    weight: 0.25
+    invert: false   # high stunting = more vulnerable (no flip needed)
+    unit: "%"
+
+  anaemia_women:
+    label: "Anaemia in Women (15–49 yrs)"
+    column: "Non-pregnant women age 15-49 years who are anaemic (<12.0 g/dl)22 (%)"
+    weight: 0.20
+    invert: false
+    unit: "%"
+
+  child_underweight:
+    label: "Underweight Children under 5"
+    column: "Children under 5 years who are underweight (weight-for-age)18 (%)"
+    weight: 0.20
+    invert: false
+    unit: "%"
+
+  institutional_births:
+    label: "Institutional Birth Rate"
+    column: "Institutional births (in the 5 years before the survey) (%)"
+    weight: 0.15
+    invert: true    # high = GOOD → flip so high = low vulnerability
+    unit: "%"
+
+  immunisation:
+    label: "Full Immunisation Coverage"
+    column: "Children age 12-23 months fully vaccinated based on information from either vaccination card or mother's recall11 (%)"
+    weight: 0.10
+    invert: true
+    unit: "%"
+
+  antenatal_visits:
+    label: "4+ Antenatal Care Visits"
+    column: "Mothers who had at least 4 antenatal care visits  (for last birth in the 5 years before the survey) (%)"
+    weight: 0.10
+    invert: true
+    unit: "%"
+
+# Score bands
+bands:
+  - label: "Low"
+    min: 0
+    max: 25
+    color: "#22c55e"
+  - label: "Moderate"
+    min: 25
+    max: 50
+    color: "#f59e0b"
+  - label: "High"
+    min: 50
+    max: 75
+    color: "#ef4444"
+  - label: "Critical"
+    min: 75
+    max: 100
+    color: "#7f1d1d"
