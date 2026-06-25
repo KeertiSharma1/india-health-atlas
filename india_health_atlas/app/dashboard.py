@@ -38,11 +38,12 @@ BORDER   = '#1f2937'
 GRID_COL = '#1f2937'
 TEXT     = '#f9fafb'
 MUTED    = '#6b7280'
+MUTED_LIGHT = '#9ca3af'
 BAND_COLORS = {
     'Low':      '#22c55e',
     'Moderate': '#f59e0b',
     'High':     '#ef4444',
-    'Critical': '#dc2626',
+    'Critical': '#7f1d1d',
 }
 QUAD_COLORS = {
     'Bad & Declining':    '#ef4444',
@@ -53,8 +54,6 @@ QUAD_COLORS = {
 
 
 # ── Plotly layout helper ──────────────────────────────────────────────────────
-# Returns a dict of layout kwargs.
-# xaxis/yaxis overrides are MERGED with the defaults — never duplicated.
 def layout(**overrides):
     base_xaxis = dict(gridcolor=GRID_COL, linecolor=BORDER,
                       tickfont=dict(color=MUTED), zerolinecolor=GRID_COL)
@@ -121,8 +120,22 @@ html, body, [class*="css"] { font-family: 'DM Sans', sans-serif; }
   color:#9ca3af; font-size:13.5px; line-height:1.6;
 }
 
+.methodology-box {
+  background:#0d1117; border:1px solid #1f2937;
+  border-left: 4px solid #3b82f6;
+  border-radius:8px; padding:18px 22px;
+  color:#9ca3af; font-size:13px; line-height:1.75;
+  margin-bottom: 1rem;
+}
+.methodology-box strong { color: #e5e7eb; }
+
 section[data-testid="stSidebar"] { background:#0d1117; border-right:1px solid #1f2937; }
+
+/* Hide Streamlit branding and manage app button */
 #MainMenu, footer, header { visibility:hidden; }
+[data-testid="manage-app-button"] { visibility: hidden !important; }
+button[kind="managedApp"] { visibility: hidden !important; }
+.stDeployButton { visibility: hidden !important; display: none !important; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -144,6 +157,30 @@ with st.sidebar:
         label_visibility='collapsed',
     )
     st.divider()
+
+    # Methodology expander in sidebar
+    with st.expander("📐 How DHVS is calculated"):
+        st.markdown(
+            """
+            <div style='color:#9ca3af;font-size:12px;line-height:1.7;'>
+            The <strong style='color:#e5e7eb'>District Health Vulnerability Score (DHVS)</strong>
+            is a weighted composite index across 6 NFHS-5 indicators:<br><br>
+            • Stunting in children &lt;5 — <strong style='color:#e5e7eb'>25%</strong><br>
+            • Anaemia in women 15–49 — <strong style='color:#e5e7eb'>20%</strong><br>
+            • Underweight children &lt;5 — <strong style='color:#e5e7eb'>20%</strong><br>
+            • Institutional birth rate — <strong style='color:#e5e7eb'>15%</strong><br>
+            • Full immunisation coverage — <strong style='color:#e5e7eb'>10%</strong><br>
+            • 4+ antenatal care visits — <strong style='color:#e5e7eb'>10%</strong><br><br>
+            Each indicator is min-max normalised to 0–100 (higher = more vulnerable).
+            Indicators where a high value means a <em>good</em> outcome
+            (births, immunisation, ANC visits) are inverted before normalisation.
+            Missing NFHS values (<code>*</code>) are imputed using state medians,
+            with national median as fallback.
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
     st.markdown(
         "<p style='color:#374151;font-size:11px;'>Data: NFHS-5 (2019–21)<br>"
         "Source: IIPS, Government of India</p>",
@@ -228,6 +265,7 @@ if page == "Overview":
 
     with left:
         fig = go.Figure()
+        # Show all 4 bands including Critical
         for band, color in BAND_COLORS.items():
             sub = scores[scores['vulnerability_band'] == band]
             fig.add_trace(go.Histogram(
@@ -420,10 +458,11 @@ elif page == "Gender Gap":
         normal = gender[gender['hidden_gap'] <= hidden_thresh]
         hidden = gender[gender['hidden_gap'] >  hidden_thresh]
         fig = go.Figure()
+        # Slightly lighter grey so dots are visible against dark background
         fig.add_trace(go.Scatter(
             x=normal['dhvs'], y=normal['gender_gap_score'],
             mode='markers', name='Within normal range',
-            marker=dict(color='#374151', size=5, opacity=0.5),
+            marker=dict(color='#4b5563', size=5, opacity=0.6),
             hovertemplate='<b>%{customdata[0]}</b> · %{customdata[1]}'
                           '<br>DHVS: %{x:.1f}  Gender: %{y:.1f}<extra></extra>',
             customdata=normal[['district', 'state']].values,
@@ -438,9 +477,9 @@ elif page == "Gender Gap":
             customdata=hidden[['district', 'state']].values,
         ))
         fig.add_hline(y=gender['gender_gap_score'].median(),
-                      line=dict(color='#374151', dash='dash', width=1))
+                      line=dict(color='#4b5563', dash='dash', width=1))
         fig.add_vline(x=gender['dhvs'].median(),
-                      line=dict(color='#374151', dash='dash', width=1))
+                      line=dict(color='#4b5563', dash='dash', width=1))
         fig.update_layout(layout(
             title=dict(text='Each dot = one district · Pink = hidden gender crisis',
                        font=dict(color=TEXT, size=13)),
@@ -554,10 +593,17 @@ elif page == "Change Tracker":
                           '<br>DHVS: %{y:.1f}  Delta: %{x:.1f}<extra></extra>',
             customdata=sub[['district', 'state']].values,
         ))
+
+    # FIXED: vertical line at x=0 (zero = exactly at state median), not at national median of deltas
+    # This is the correct logical boundary: positive delta = worse than state peers
     fig.add_hline(y=change['dhvs'].median(),
-                  line=dict(color='#374151', dash='dash', width=1))
-    fig.add_vline(x=change['score_delta'].median(),
-                  line=dict(color='#374151', dash='dash', width=1))
+                  line=dict(color='#4b5563', dash='dash', width=1),
+                  annotation_text="National DHVS median",
+                  annotation_font=dict(color=MUTED, size=10))
+    fig.add_vline(x=0,
+                  line=dict(color='#4b5563', dash='dash', width=1),
+                  annotation_text="State median (0)",
+                  annotation_font=dict(color=MUTED, size=10))
     fig.update_layout(layout(
         title=dict(text='Each dot = one district · Click quadrant in legend to toggle',
                    font=dict(color=TEXT, size=13)),
@@ -632,23 +678,27 @@ elif page == "What-If Simulator":
                 value=curr, step=0.5, help=dirn,
             )
 
-    # Recalculate
+    # Recalculate DHVS for simulated values.
+    # Note: normalization bounds are fixed to the original dataset min/max
+    # so that moving one district's slider does not shift all other scores.
+    # This is the correct approach for a "what-if" tool — we ask:
+    # "where would this district sit if its raw indicator changed,
+    # holding the national distribution constant?"
     def recalc(base_df, idx, sim, ind_cfg):
         df = base_df.copy()
         for k, v in sim.items():
             if k in df.columns:
                 df.at[idx, k] = v
-        total_w, score = 0.0, 0.0
+        score = 0.0
         for k, meta in ind_cfg.items():
             if k not in df.columns:
                 continue
             vals = df[k].copy()
             if meta.get('invert', False):
-                vals = vals.max() - vals + vals.min()
+                vals = vals.max() - vals          # correct inversion
             mn, mx = vals.min(), vals.max()
-            nv      = 50.0 if mn == mx else (vals[idx] - mn) / (mx - mn) * 100
-            score  += nv * meta['weight']
-            total_w += meta['weight']
+            nv     = 50.0 if mn == mx else (vals[idx] - mn) / (mx - mn) * 100
+            score += nv * meta['weight']
         return round(score, 2)
 
     d_idx     = scores[scores['district'] == sel_dist].index[0]
