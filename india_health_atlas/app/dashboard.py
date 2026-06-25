@@ -131,11 +131,22 @@ html, body, [class*="css"] { font-family: 'DM Sans', sans-serif; }
 
 section[data-testid="stSidebar"] { background:#0d1117; border-right:1px solid #1f2937; }
 
-/* Hide Streamlit branding and manage app button */
+/* Hide Streamlit branding and manage app button — covers all Streamlit versions */
 #MainMenu, footer, header { visibility:hidden; }
-[data-testid="manage-app-button"] { visibility: hidden !important; }
-button[kind="managedApp"] { visibility: hidden !important; }
-.stDeployButton { visibility: hidden !important; display: none !important; }
+[data-testid="manage-app-button"],
+[data-testid="stToolbar"],
+[data-testid="stDecoration"],
+[data-testid="stStatusWidget"],
+button[kind="managedApp"],
+.stDeployButton,
+.viewerBadge_container__1QSob,
+.viewerBadge_link__1S137,
+#stDecoration {
+  visibility: hidden !important;
+  display: none !important;
+  height: 0 !important;
+  width: 0 !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -265,14 +276,23 @@ if page == "Overview":
 
     with left:
         fig = go.Figure()
-        # Show all 4 bands including Critical
+        # Always add all 4 bands to legend, even if a band has no districts in current data.
+        # This ensures the legend is complete and consistent with the defined scoring system.
         for band, color in BAND_COLORS.items():
             sub = scores[scores['vulnerability_band'] == band]
-            fig.add_trace(go.Histogram(
-                x=sub['dhvs'], name=band, marker_color=color,
-                opacity=0.85, nbinsx=18,
-                hovertemplate=f'<b>{band}</b><br>Score: %{{x:.0f}}<br>Count: %{{y}}<extra></extra>',
-            ))
+            if sub.empty:
+                # Add an invisible trace so the band still appears in the legend
+                fig.add_trace(go.Histogram(
+                    x=[None], name=band, marker_color=color,
+                    opacity=0.85, nbinsx=18, visible='legendonly',
+                    hovertemplate=f'<b>{band}</b><br>No districts in this range<extra></extra>',
+                ))
+            else:
+                fig.add_trace(go.Histogram(
+                    x=sub['dhvs'], name=band, marker_color=color,
+                    opacity=0.85, nbinsx=18,
+                    hovertemplate=f'<b>{band}</b><br>Score: %{{x:.0f}}<br>Count: %{{y}}<extra></extra>',
+                ))
         fig.update_layout(layout(
             title=dict(text='DHVS Score Distribution across 706 Districts',
                        font=dict(color=TEXT, size=13)),
